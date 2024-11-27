@@ -39,5 +39,4 @@ private:
 	void genRandCubes();
 	void genRandLights();
 	void toggleOptions();
-	void intro();
 };

@@ -27,8 +27,6 @@ MyScene::MyScene(GLFWwindow* window, InputHandler* H) : Scene(window, H) {
 	m_cube = new Cube(cubeDiff, cubeSpec, cubeNorm, 64);
 	numCubes = 40;
 	numPL = 20;
-
-	intro();
 }
 
 MyScene::~MyScene() {
@@ -131,14 +129,4 @@ void MyScene::update(float dt) {
 	m_camera->update(dt);
 	toggleOptions();
 	render();
-}
-
-void MyScene::intro() {
-	std::cout << "\nWelcome to my 3D Modelling & Shaders Coursework" << std::endl;
-	std::cout << "Have a seat and get comfy." << std::endl;
-	std::cout << "Would you like something to drink?" << std::endl;
-	std::cout << "Only kidding, im a program running on a computer, thats a little outside my real of expertes." << std::endl;
-	std::cout << "Not to mention liqud + electronics usually = fire...or a good night...depends how you view it :)" << std::endl;
-	std::cout << "\nAnyways, enough stalling. Enjoy my mostly functional project. Controls are listed below, have fun!" << std::endl;
-	std::cout << "\nControls:\nG - Toggle Directional Lights\nH - Toggle Normal Mapping\nJ - Toggle Point Lights \nK - Toggle Spotlight" << std::endl;
 }

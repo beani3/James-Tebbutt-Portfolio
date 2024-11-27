@@ -1,0 +1,3 @@
+This is my JavaScript Ray-trace assignment. The brief for the assignment was to "Build a simple ray tracing program in JavaScript. It will use the Phong lighting model with basic shadows. Your final program should create a ray traced scene made up of spheres and gradient background". The work I produced got me 91% in the assignment thanks to the addition of gamma correction and multi-sampling.
+
+This program is just a scene so no controls are needed. 

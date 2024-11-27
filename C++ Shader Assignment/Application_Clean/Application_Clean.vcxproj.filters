@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\Cube.cpp" />
+    <ClCompile Include="src\EntryPoint.cpp" />
+    <ClCompile Include="src\FPSCamera.cpp" />
+    <ClCompile Include="src\glad.c" />
+    <ClCompile Include="src\InputHandler.cpp" />
+    <ClCompile Include="src\Lights\DirectionalLight.cpp" />
+    <ClCompile Include="src\myScene.cpp" />
+    <ClCompile Include="src\Plane.cpp" />
+    <ClCompile Include="src\Shader.cpp" />
+    <ClCompile Include="src\Textures\TextureManager.cpp" />
+    <ClCompile Include="src\WindowManager.cpp" />
+    <ClCompile Include="src\Lights\PointLight.cpp" />
+    <ClCompile Include="src\Lights\SpotLight.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\Camera.h" />
+    <ClInclude Include="include\Cube.h" />
+    <ClInclude Include="include\FPSCamera.h" />
+    <ClInclude Include="include\GLFWinputCodes.h" />
+    <ClInclude Include="include\InputHandler.h" />
+    <ClInclude Include="include\Lights\DirectionalLight.h" />
+    <ClInclude Include="include\Lights\Light.h" />
+    <ClInclude Include="include\myScene.h" />
+    <ClInclude Include="include\Plane.h" />
+    <ClInclude Include="include\Properties.h" />
+    <ClInclude Include="include\Scene.h" />
+    <ClInclude Include="include\Shader.h" />
+    <ClInclude Include="include\Textures\TextureManager.h" />
+    <ClInclude Include="include\WindowManager.h" />
+    <ClInclude Include="include\Lights\PointLight.h" />
+    <ClInclude Include="include\Lights\SpotLight.h" />
+  </ItemGroup>
+</Project>

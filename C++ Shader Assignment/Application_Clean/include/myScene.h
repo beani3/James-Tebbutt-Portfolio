@@ -27,7 +27,8 @@ private:
 	unsigned int planeSpec;
 	unsigned int planeNorm;
 
-	int numCubes;
+	const int numCubes{ 75 };
+	std::vector<glm::vec4> randPositions;
 	int numPL;
 
 	bool useNM = false;

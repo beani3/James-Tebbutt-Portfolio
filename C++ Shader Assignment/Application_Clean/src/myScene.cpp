@@ -4,6 +4,7 @@
 #include "FPSCamera.h"
 #include "Textures/TextureManager.h"
 #include <random>
+#include <vector>
 
 MyScene::MyScene(GLFWwindow* window, InputHandler* H) : Scene(window, H) {
 	m_camera = new FirstPersonCamera();
@@ -25,8 +26,27 @@ MyScene::MyScene(GLFWwindow* window, InputHandler* H) : Scene(window, H) {
 	cubeSpec = TextureManager::LoadTexture("..\\Resources\\Textures\\specularCube.jpg");
 	cubeNorm = TextureManager::LoadTexture("..\\Resources\\Textures\\normalCube.jpg");
 	m_cube = new Cube(cubeDiff, cubeSpec, cubeNorm, 64);
-	numCubes = 40;
-	numPL = 20;
+	numPL = 30;
+
+	// Generates random values to decide positions and rotations of cubes and point lights 
+	//  and randomise
+	std::default_random_engine rd;
+	std::uniform_int_distribution<int> X_Dist(-6, 6);
+	std::uniform_int_distribution<int> Y_Dist(0, 11);
+	std::uniform_int_distribution<int> Z_Dist(-6, 6);
+	std::uniform_int_distribution<int> R_Dist(0, 1);
+	std::uniform_real_distribution<float> C_Dist(0.0f, 1.0f);
+	
+	// fill the vector with positions
+	for (int i = 0; i < numCubes; i++) {
+		int x_dist = X_Dist(rd);
+		int y_dist = Y_Dist(rd);
+		int z_dist = Z_Dist(rd);
+		int r_dist = R_Dist(rd);
+
+		glm::vec4 randPosR = glm::vec4(x_dist, y_dist, z_dist, r_dist);
+		randPositions.push_back(randPosR);
+	}
 }
 
 MyScene::~MyScene() {
@@ -72,21 +92,20 @@ void MyScene::render() {
 	m_plane->resetTransform();
 
 	genRandCubes();
-	genRandLights();
+	// genRandLights();
 };
 
 void MyScene::genRandCubes() {
-
-	std::default_random_engine rd;
-	std::uniform_int_distribution<int> xz_dist(-6, 6);
-	std::uniform_int_distribution<int> y_dist(0, 11);
-	std::uniform_int_distribution<int> r_dist(0, 1);
-
-	// loads 40 cubes at random positions with random rotation axis'.
+	// loads 50 cubes at random positions with random rotation axis'
+	glBindVertexArray(m_cube->getVAO());
 	for (int i = 0; i < numCubes; i++) {
-		glBindVertexArray(m_cube->getVAO());
-		m_cube->translate(glm::vec3(xz_dist(rd), y_dist(rd), xz_dist(rd)));
-		m_cube->rotate((float)(glfwGetTime() * 0.5), glm::vec3(r_dist(rd), r_dist(rd), r_dist(rd)));
+		
+		glm::vec4 posR = randPositions.at(i);
+		glm::vec3 pos = glm::vec3(posR.x, posR.y, posR.z);
+		int r = posR.w;
+
+		m_cube->translate(pos);
+		m_cube->rotate((float)(glfwGetTime() * 0.5), glm::vec3(r));
 		m_cube->setCubeMatVals(m_myShader);
 		m_cube->setTransform(m_myShader);
 		glDrawElements(GL_TRIANGLES, m_cube->getIndiciesCount(), GL_UNSIGNED_INT, 0);
@@ -100,7 +119,7 @@ void MyScene::genRandLights() {
 	std::uniform_int_distribution<int> y_dist(0, 11);
 	std::uniform_real_distribution<float> col_dist(0.0f, 1.0f);
 
-	// loads 30 pointlights at random positions and colours. Currently set to 30. Was set to 50 but my PC was struggling.
+	// loads 30 pointlights at random positions and colours.
 	for (int i = 0; i < numPL; i++) {
 		// PointLight(vec3 col, vec3 pos, vec3 attn)
 		m_pointLight.push_back(new PointLight(glm::vec3(col_dist(rd), col_dist(rd), col_dist(rd)), glm::vec3(xz_dist(rd), y_dist(rd), xz_dist(rd)), glm::vec3(1.0f, 0.0014f, 0.000007f)));

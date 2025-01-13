@@ -27,12 +27,12 @@ private:
 	unsigned int planeSpec;
 	unsigned int planeNorm;
 
-	const int numCubes{ 75 };
-	std::vector<glm::vec4> randPositions;
-	int numPL;
-
-	bool useNM = false;
+	const int numCubes { 75 };
+	std::vector<glm::vec4> randCubePos;
+	const int numPL { 50 };
+	std::vector<glm::vec4> randPointLightPos;
 	bool useDL = false;
+	bool useNM = false;
 	bool usePL = false;
 	bool useSL = false;
 		

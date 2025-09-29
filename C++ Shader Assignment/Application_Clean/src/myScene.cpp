@@ -27,8 +27,8 @@ MyScene::MyScene(GLFWwindow* window, InputHandler* H) : Scene(window, H) {
 	cubeNorm = TextureManager::LoadTexture("..\\Resources\\Textures\\normalCube.jpg");
 	m_cube = new Cube(cubeDiff, cubeSpec, cubeNorm, 64);
 
-	// Generates random values to decide positions and rotations of cubes and point lights 
-	//  and randomise
+	// Generates random values to decide positions and rotations of cubes and 
+	//  positions and colour of point lights 
 	std::default_random_engine rd;
 	std::uniform_int_distribution<int> X_Dist(-6, 6);
 	std::uniform_int_distribution<int> Y_Dist(0, 11);
@@ -132,10 +132,11 @@ void MyScene::genRandLights() {
 
 		glm::vec4 posC = randPointLightPos.at(i);
 		glm::vec3 pos = glm::vec3(posC.x, posC.y, posC.z);
-		float c = posC.w;
-		m_pointLight[i]->setLightUniforms(m_myShader, i);
+		int c = posC.w;
+
 		// PointLight(vec3 col, vec3 pos, vec3 attn)
 		m_pointLight.push_back(new PointLight(glm::vec3(c, c, c), glm::vec3(pos), glm::vec3(1.0f, 0.0014f, 0.000007f)));
+		m_pointLight[i]->setLightUniforms(m_myShader, i);
 	}
 } 
 

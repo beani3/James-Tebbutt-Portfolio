@@ -15,6 +15,4 @@ protected:
 	GLFWwindow* m_window;
 	InputHandler* m_handler;
 	FirstPersonCamera* m_camera;
-	
-
 };

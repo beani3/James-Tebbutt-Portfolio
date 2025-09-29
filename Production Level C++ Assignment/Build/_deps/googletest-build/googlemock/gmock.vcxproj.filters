@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\james\OneDrive - De Montfort University\GAMR2540\assignmentgamr2451-beani3\Build\_deps\googletest-src\googletest\src\gtest-all.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\james\OneDrive - De Montfort University\GAMR2540\assignmentgamr2451-beani3\Build\_deps\googletest-src\googlemock\src\gmock-all.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{0E9E11E9-5A9B-3E79-B2FE-5F88B59B37C9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

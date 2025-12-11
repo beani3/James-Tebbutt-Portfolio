@@ -1,3 +1,0 @@
-This was the first group project in our Mobile Games and AI for Simulation module where we were asked to get into groups of 3-4 people and create, what the module lead called, a "smart tank" AI. we wrote 3 different scripts using three different AI models. Those being a Rule-Based System, Finite State Machine with RBS, and Behavioral Trees with FSMRBS or FSMRBSBT for short. In the end, this project earned me 90% which I was thrilled with.
-
-To run the project, simply open the "TankWars" folder in unity and run it. The tank game was provided by our module lead but the AI scripts were written by the members of our group.

@@ -129,7 +129,7 @@ vec3 getSpotLight() {
 
 void main() {
 	viewDir = normalize(viewPos - posInWS);
-	vec3 result = glm::vec3(0,0,0);
+	vec3 result = vec3(0,0,0);
 
 	if (useNM != 0) {
 		n = texture(normalMap, uv).rgb;

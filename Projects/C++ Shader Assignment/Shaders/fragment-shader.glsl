@@ -20,7 +20,7 @@ struct PointLight {
 	vec3 attn;
 };
 
-#define numPL 2
+#define numPL 50
 uniform PointLight pointLight[numPL];
 
 // spotlight uniforms

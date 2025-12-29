@@ -56,11 +56,6 @@ MyScene::MyScene(GLFWwindow* window, InputHandler* H) : Scene(window, H) {
 
 		glm::vec4 randPosC = glm::vec4(x_dist, y_dist, z_dist, c_dist);
 		randPointLightPos.push_back(randPosC);
-
-		// std::cout << x_dist << std::endl;
-		// std::cout << y_dist << std::endl;
-		// std::cout << z_dist << std::endl;
-		std::cout << c_dist << std::endl;
 	}
 }
 
@@ -69,6 +64,7 @@ MyScene::~MyScene() {
 	delete m_cube;
 	delete m_plane;
 	delete m_directionalLight;
+	delete m_spotLight;
 }
 
 void MyScene::render() {
@@ -143,18 +139,22 @@ void MyScene::genRandLights() {
 void MyScene::toggleOptions() {
 	if (m_handler->isKeyPressed(GLFW_KEY_G)) {
 		useDL = !useDL;
+		std::cout << "toggled directional light" << std::endl;
 	}
 
 	if (m_handler->isKeyPressed(GLFW_KEY_H)) {
 		useNM = !useNM;
+		std::cout << "toggled normal mapping" << std::endl;
 	}
 
 	if (m_handler->isKeyPressed(GLFW_KEY_J)) {
 		usePL = !usePL;
+		std::cout << "toggled point lights" << std::endl;
 	}
 
 	if (m_handler->isKeyPressed(GLFW_KEY_K)) {
 		useSL = !useSL;
+		std::cout << "toggled spotlight" << std::endl;
 	}
 }
 

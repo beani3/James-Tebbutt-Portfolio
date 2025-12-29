@@ -14,9 +14,14 @@ uniform vec3 lightDirection;
 uniform float ambientFactor;
 
 // point light uniforms
-uniform vec3 plightColour;
-uniform vec3 plightPosition;
-uniform vec3 pAttentuation;
+struct PointLight {
+	vec3 col;
+	vec3 pos;
+	vec3 attn;
+};
+
+#define numPL 50
+uniform PointLight pointLight[numPL];
 
 // spotlight uniforms
 uniform vec3 slightPosition;
@@ -56,29 +61,30 @@ vec3 getDirectionalLight() {
 	return ambient + diffuse + specular;
 }
 
-vec3 getPointLight() {
+vec3 getPointLight(int i) {
 	vec3 objColour = texture(diffuseMap, uv).rgb; 
 	float specStrength = texture(specularMap, uv).r;
 
 	// attn
-	float distance = length(plightPosition - posInWS);
-	float attn = 1.0/(pAttentuation.x + (pAttentuation.y * distance) + (pAttentuation.z * (distance * distance)));
-	vec3 lightDir = normalize((plightPosition - posInWS));
+	float distance = length(pointLight[i].pos - posInWS);
+	float attn = 1.0 / (pointLight[i].attn.x + (pointLight[i].attn.y * distance) + (pointLight[i].attn.z * (distance * distance)));
 
 	// diffuse 
+	vec3 lightDir = normalize(-lightDirection);
 	float diffuseFactor = dot(n, lightDir);
 	diffuseFactor = max(diffuseFactor, 0.0f);
-	vec3 diffuse = objColour * plightColour * diffuseFactor;
+	vec3 diffuse = objColour * pointLight[i].col * diffuseFactor;
 
 	// Blinn Phong Specular 
 	vec3 H = normalize(lightDir + viewDir);
 	float specLevel = dot(n, H);
 	specLevel = max(specLevel, 0.0);
 	specLevel = pow(specLevel, shine);
-	vec3 specular = plightColour * specLevel * specStrength ;
+	vec3 specular = pointLight[i].col * specLevel * specStrength;
 
-	diffuse = diffuse * attn;
-	specular = specular * attn;
+	diffuse * attn;
+	specular * attn;
+
 	return diffuse + specular;
 }
 
@@ -121,7 +127,11 @@ void main() {
 	n = normalize(normal);
 	viewDir = normalize(viewPos - posInWS);
 	vec3 result = getDirectionalLight();
-	//result += getPointLight();
-	//result += getSpotLight();
+	
+	for (int i = 0; i < numPL; i++) {
+		result += getPointLight(i);
+	}
+
+	result += getSpotLight();
 	FragColor = vec4( result, 1.0);
 }

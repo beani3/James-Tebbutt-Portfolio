@@ -1,45 +1,47 @@
 <html>
     <head>
-    <style>
-        .square {
-            height: 250px;
-            width: 250px;
-            background-color: blue;
-            flex-shrink: 0;
-        }
-        .about-section {
-            display: flex;
-            gap: 20px;
-            align-items: flex-start;
-            padding: 20px;
-        }
-    </style>
+        <link rel="stylesheet" href="styles.css">
     </head>
     <body>
          <h1> James Tebbutt Portfolio </h1>
         <h2> About Me </h2>
         <hr>
         <div class="about-section">
-            <div class = "square"></div>
-            <p>      
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ac ante at erat <br>scelerisque laoreet. Vestibulum ante ipsum primis in faucibus orci luctus et 
-                <br>ultrices posuere cubilia curae; Nunc nisl sem, sollicitudin quis leo non, <br>lobortis sollicitudin neque. Cras eu eros iaculis tortor pharetra aliquet eget 
-                <br>vel eros. In hac habitasse platea dictumst. Donec suscipit bibendum neque, <br>eget dignissim metus sodales vitae. Fusce consequat velit in efficitur ultrices. 
-                <br>Praesent rhoncus gravida euismod. Phasellus vestibulum vel libero et bibendum. Quisque <br>vitae lectus viverra, sagittis lacus ut, luctus urna. Cras consectetur ligula risus, 
-                <br>sed ultricies ex tincidunt eget. Nulla consequat accumsan scelerisque. Vestibulum <br>porta orci sed neque lobortis, a sagittis libero efficitur. Sed non semper odio. 
-                <br>Mauris fringilla vitae diam sit amet ullamcorper. Cras blandit, massa et consequat <br>ullamcorper, odio nunc varius sapien, non tempor nisl quam at erat.
-            </p>
+            <div class="portrait-photo"></div>
+            <div class="about-text">
+                <p1>      
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ac ante at erat <br>scelerisque laoreet. Vestibulum ante ipsum primis in faucibus orci luctus et 
+                    <br>ultrices posuere cubilia curae; Nunc nisl sem, sollicitudin quis leo non, <br>lobortis sollicitudin neque. Cras eu eros iaculis tortor pharetra aliquet eget 
+                    <br>vel eros. In hac habitasse platea dictumst. Donec suscipit bibendum neque, <br>eget dignissim metus sodales vitae. Fusce consequat velit in efficitur ultrices. 
+                    <br>Praesent rhoncus gravida euismod. Phasellus vestibulum vel libero et bibendum. Quisque <br>vitae lectus viverra, sagittis lacus ut, luctus urna. Cras consectetur ligula risus, 
+                    <br>sed ultricies ex tincidunt eget. Nulla consequat accumsan scelerisque. Vestibulum <br>porta orci sed neque lobortis, a sagittis libero efficitur. Sed non semper odio. 
+                    <br>Mauris fringilla vitae diam sit amet ullamcorper. Cras blandit, massa et consequat <br>ullamcorper, odio nunc varius sapien, non tempor nisl quam at erat.
+                </p1>
+            </div>
         </div>
         <hr>
         <h3> Projects </h3>
-        <a href="https://github.com/beani3/James-Tebbutt-Portfolio/tree/main/Projects/JavaScript%20Raytrace%20Assignment">
-            JavaScript Raytrace Assignment<br>
-        </a>
-        <a href="https://github.com/beani3/James-Tebbutt-Portfolio/tree/main/Projects/Production%20Level%20C%2B%2B%20Assignment">
-            Production Level C++ Assignment<br>
-        </a>
-        <a href="https://github.com/beani3/James-Tebbutt-Portfolio/tree/main/Projects/Progressive%20Game%20Engine%20Assignment">
-            Progressive Game Engine Assignment
-        </a>
+        <p2>
+            Below are some projects I completed during my time at university. You can click the links to view the projects repository on GitHub and its associated readme 
+            file and source code. 
+        </p2>
+        <div class="projects-section">
+            <a href="https://github.com/GAMR1530/jsraytracer23-beani3">
+                <div class="project-img-0"></div>
+                <div class="hide">JavaScript Ray Tracer Assignment</div>
+            </a>
+              <a href="https://github.com/beani3/Progressive-Game-Assignment">
+                <div class="project-img-1"></div>
+                <div class="hide">Progressive Game Engine Assignment</div>
+            </a>
+            <a href="https://github.com/DMU-GAMR2541/assignmentgamr2451-beani3">
+                <div class="project-img-2"></div>
+                <div class="hide">Production Level C++ Assignment</div>
+            </a>
+            <a href="https://github.com/GAMR3521/coursework-beani3">
+                <div class="project-img-3"></div>
+                <div class="hide">Advanced Shader Programming Assignment</div>
+            </a>
+        </div>
     </body>
 </html>

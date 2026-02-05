@@ -1,0 +1,56 @@
+        .portrait-photo {
+            height: 350px;
+            aspect-ratio: 1;
+            background-color: blue;
+        }
+        .about-section {
+            display: flex;
+            gap: 20px;
+        }
+        .about-text {
+            font-size: 20px;
+        }
+        .projects-section {
+            display: flex;
+            gap: 20px;
+            padding-top: 20px;
+        }
+        .hide {
+            display: none;
+        }
+        .project-img-0 {
+            height: 300px;
+            aspect-ratio: 1;
+            background-color: red;
+        }
+        .project-img-0:hover + .hide {
+            display: block;
+            color: black;
+        }
+        .project-img-1 {
+            height: 300px;
+            aspect-ratio: 1;
+            background-color: green;
+        }   
+        .project-img-1:hover + .hide {
+            display: block;
+            color: black;
+        }
+        .project-img-2 {
+            height: 300px;
+            aspect-ratio: 1;
+            background-color: yellow;
+        }
+        .project-img-2:hover + .hide {
+            display: block;
+            color: black;
+        }
+        .project-img-3 {
+            height: 300px;
+            aspect-ratio: 1;
+            background-color: purple;
+        }
+        .project-img-3:hover + .hide {
+            display: block;
+            color: black;
+        }

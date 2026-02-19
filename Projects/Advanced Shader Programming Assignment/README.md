@@ -1,5 +1,10 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/oU3_BVM_)
+To run the program, please run the cmake.bat file. Upon completion, you will recieve the build folder with the .sln file. Just press F5 to start the application. <br><br>
 
-## GAMR3521 Coursework Starting Point
+The controls are: <br>
+W - Forward<br>
+A - Left<br>
+S - Backwards<br>
+D - Right<br>
+Arrow Keys - Height and look controls<br><br>
 
-Instructions on how to clone and build this project can be found in the first lab sheet.
+This is a project I am really proud of and put a lot of time and effert into. At the end of the module, it warrented me an 86%.

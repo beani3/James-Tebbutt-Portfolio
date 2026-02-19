@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\james\OneDrive - De Montfort University\GAMR2540\assignmentgamr2451-beani3\Build\_deps\googletest-subbuild\CMakeFiles\64309f86ef4c4d092600133c74001f63\googletest-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\james\OneDrive - De Montfort University\GAMR2540\assignmentgamr2451-beani3\Build\_deps\googletest-subbuild\CMakeFiles\64309f86ef4c4d092600133c74001f63\googletest-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\james\OneDrive - De Montfort University\GAMR2540\assignmentgamr2451-beani3\Build\_deps\googletest-subbuild\CMakeFiles\64309f86ef4c4d092600133c74001f63\googletest-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\james\OneDrive - De Montfort University\GAMR2540\assignmentgamr2451-beani3\Build\_deps\googletest-subbuild\CMakeFiles\64309f86ef4c4d092600133c74001f63\googletest-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\james\OneDrive - De Montfort University\GAMR2540\assignmentgamr2451-beani3\Build\_deps\googletest-subbuild\CMakeFiles\64309f86ef4c4d092600133c74001f63\googletest-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\james\OneDrive - De Montfort University\GAMR2540\assignmentgamr2451-beani3\Build\_deps\googletest-subbuild\CMakeFiles\64309f86ef4c4d092600133c74001f63\googletest-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\james\OneDrive - De Montfort University\GAMR2540\assignmentgamr2451-beani3\Build\_deps\googletest-subbuild\CMakeFiles\64309f86ef4c4d092600133c74001f63\googletest-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\james\OneDrive - De Montfort University\GAMR2540\assignmentgamr2451-beani3\Build\_deps\googletest-subbuild\CMakeFiles\64309f86ef4c4d092600133c74001f63\googletest-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\james\OneDrive - De Montfort University\GAMR2540\assignmentgamr2451-beani3\Build\_deps\googletest-subbuild\CMakeFiles\7d6969412bf09b0d4391b6aeb435ca67\googletest-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\james\OneDrive - De Montfort University\GAMR2540\assignmentgamr2451-beani3\Build\_deps\googletest-subbuild\CMakeFiles\4bcb5c7eb8448244a44b80fdb04609f6\googletest-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\james\OneDrive - De Montfort University\GAMR2540\assignmentgamr2451-beani3\Build\_deps\googletest-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\james\OneDrive - De Montfort University\GAMR2540\assignmentgamr2451-beani3\Build\_deps\googletest-subbuild\CMakeFiles\googletest-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{CF4054D2-6A8F-3C58-87C0-93140FFEBB7D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

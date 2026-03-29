@@ -2,7 +2,7 @@
 ### Project Overview
 This project focuses on the development of a realistic 3D scene using advanced computer graphics techniques. It involves evaluating and selecting appropriate mathematical models for representing scene geometry, alongside applying the programmable graphics pipeline to achieve accurate lighting and material interactions.
 
-The project also critically examines modern rendering techniques and integrates suitable approaches to balance visual realism with performance. The final outcome demonstrates the effective combination of algorithms and rendering methods to produce a high-quality, real-time 3D environment
+The project also critically examines modern rendering techniques and integrates suitable approaches to balance visual realism with performance. The final outcome demonstrates the effective combination of algorithms and rendering methods to produce a high-quality, real-time 3D environment.
 
 ---
 ### What I Learned

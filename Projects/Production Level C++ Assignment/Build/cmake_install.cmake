@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/james/OneDrive - De Montfort University/GAMR2540/assignmentgamr2451-beani3
+# Install script for directory: C:/Users/james/OneDrive/Desktop/Production Level C++ Assignment
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,41 +34,13 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/james/OneDrive - De Montfort University/GAMR2540/assignmentgamr2451-beani3/Build/_deps/googletest-build/cmake_install.cmake")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  if(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "C:/Users/james/OneDrive - De Montfort University/GAMR2540/assignmentgamr2451-beani3/Build/bin/Debug/SFML_GTEST.exe")
-  elseif(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "C:/Users/james/OneDrive - De Montfort University/GAMR2540/assignmentgamr2451-beani3/Build/bin/Release/SFML_GTEST.exe")
-  elseif(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Mm][Ii][Nn][Ss][Ii][Zz][Ee][Rr][Ee][Ll])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "C:/Users/james/OneDrive - De Montfort University/GAMR2540/assignmentgamr2451-beani3/Build/bin/MinSizeRel/SFML_GTEST.exe")
-  elseif(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Rr][Ee][Ll][Ww][Ii][Tt][Hh][Dd][Ee][Bb][Ii][Nn][Ff][Oo])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "C:/Users/james/OneDrive - De Montfort University/GAMR2540/assignmentgamr2451-beani3/Build/bin/RelWithDebInfo/SFML_GTEST.exe")
-  endif()
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  if(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
-    include("C:/Users/james/OneDrive - De Montfort University/GAMR2540/assignmentgamr2451-beani3/Build/CMakeFiles/SFML_GTEST.dir/install-cxx-module-bmi-Debug.cmake" OPTIONAL)
-  elseif(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
-    include("C:/Users/james/OneDrive - De Montfort University/GAMR2540/assignmentgamr2451-beani3/Build/CMakeFiles/SFML_GTEST.dir/install-cxx-module-bmi-Release.cmake" OPTIONAL)
-  elseif(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Mm][Ii][Nn][Ss][Ii][Zz][Ee][Rr][Ee][Ll])$")
-    include("C:/Users/james/OneDrive - De Montfort University/GAMR2540/assignmentgamr2451-beani3/Build/CMakeFiles/SFML_GTEST.dir/install-cxx-module-bmi-MinSizeRel.cmake" OPTIONAL)
-  elseif(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Rr][Ee][Ll][Ww][Ii][Tt][Hh][Dd][Ee][Bb][Ii][Nn][Ff][Oo])$")
-    include("C:/Users/james/OneDrive - De Montfort University/GAMR2540/assignmentgamr2451-beani3/Build/CMakeFiles/SFML_GTEST.dir/install-cxx-module-bmi-RelWithDebInfo.cmake" OPTIONAL)
-  endif()
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/src" TYPE FILE FILES "C:/Users/james/OneDrive - De Montfort University/GAMR2540/assignmentgamr2451-beani3/Main.cpp")
+  include("C:/Users/james/OneDrive/Desktop/Production Level C++ Assignment/build/SFML_GTEST/cmake_install.cmake")
 endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "C:/Users/james/OneDrive - De Montfort University/GAMR2540/assignmentgamr2451-beani3/Build/install_local_manifest.txt"
+  file(WRITE "C:/Users/james/OneDrive/Desktop/Production Level C++ Assignment/build/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()
 if(CMAKE_INSTALL_COMPONENT)
@@ -84,6 +56,6 @@ else()
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "C:/Users/james/OneDrive - De Montfort University/GAMR2540/assignmentgamr2451-beani3/Build/${CMAKE_INSTALL_MANIFEST}"
+  file(WRITE "C:/Users/james/OneDrive/Desktop/Production Level C++ Assignment/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

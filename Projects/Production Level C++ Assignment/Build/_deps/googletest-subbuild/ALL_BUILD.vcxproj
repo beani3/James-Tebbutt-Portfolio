@@ -13,9 +13,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{6598E953-FE12-3336-B5A1-4051D12DF900}</ProjectGuid>
+    <ProjectGuid>{0C03E08F-905E-3561-8B7B-E5584BBEB3C8}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
     <ProjectName>ALL_BUILD</ProjectName>
     <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
@@ -49,11 +49,11 @@
     </Midl>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\james\OneDrive - De Montfort University\GAMR2540\assignmentgamr2451-beani3\Build\_deps\googletest-subbuild\CMakeLists.txt">
+    <CustomBuild Include="C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\build\_deps\googletest-subbuild\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/james/OneDrive - De Montfort University/GAMR2540/assignmentgamr2451-beani3/Build/_deps/googletest-subbuild/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/james/OneDrive/Desktop/Production Level C++ Assignment/build/_deps/googletest-subbuild/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/james/OneDrive - De Montfort University/GAMR2540/assignmentgamr2451-beani3/Build/_deps/googletest-subbuild" "-BC:/Users/james/OneDrive - De Montfort University/GAMR2540/assignmentgamr2451-beani3/Build/_deps/googletest-subbuild" --check-stamp-file "C:/Users/james/OneDrive - De Montfort University/GAMR2540/assignmentgamr2451-beani3/Build/_deps/googletest-subbuild/CMakeFiles/generate.stamp"
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/james/OneDrive/Desktop/Production Level C++ Assignment/build/_deps/googletest-subbuild" "-BC:/Users/james/OneDrive/Desktop/Production Level C++ Assignment/build/_deps/googletest-subbuild" --check-stamp-file "C:/Users/james/OneDrive/Desktop/Production Level C++ Assignment/build/_deps/googletest-subbuild/CMakeFiles/generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -61,8 +61,8 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\ExternalProject\PatchInfo.txt.in;C:\Program Files\CMake\share\cmake-4.0\Modules\ExternalProject\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-4.0\Modules\ExternalProject\UpdateInfo.txt.in;C:\Program Files\CMake\share\cmake-4.0\Modules\ExternalProject\cfgcmd.txt.in;C:\Program Files\CMake\share\cmake-4.0\Modules\ExternalProject\download.cmake.in;C:\Program Files\CMake\share\cmake-4.0\Modules\ExternalProject\extractfile.cmake.in;C:\Program Files\CMake\share\cmake-4.0\Modules\ExternalProject\mkdirs.cmake.in;C:\Program Files\CMake\share\cmake-4.0\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\WindowsPaths.cmake;C:\Users\james\OneDrive - De Montfort University\GAMR2540\assignmentgamr2451-beani3\Build\_deps\googletest-subbuild\CMakeFiles\4.0.0\CMakeSystem.cmake;C:\Users\james\OneDrive - De Montfort University\GAMR2540\assignmentgamr2451-beani3\Build\_deps\googletest-subbuild\googletest-populate-prefix\tmp\googletest-populate-mkdirs.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\james\OneDrive - De Montfort University\GAMR2540\assignmentgamr2451-beani3\Build\_deps\googletest-subbuild\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\ExternalProject\PatchInfo.txt.in;C:\Program Files\CMake\share\cmake-4.2\Modules\ExternalProject\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-4.2\Modules\ExternalProject\UpdateInfo.txt.in;C:\Program Files\CMake\share\cmake-4.2\Modules\ExternalProject\cfgcmd.txt.in;C:\Program Files\CMake\share\cmake-4.2\Modules\ExternalProject\download.cmake.in;C:\Program Files\CMake\share\cmake-4.2\Modules\ExternalProject\extractfile.cmake.in;C:\Program Files\CMake\share\cmake-4.2\Modules\ExternalProject\mkdirs.cmake.in;C:\Program Files\CMake\share\cmake-4.2\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\WindowsPaths.cmake;C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\build\_deps\googletest-subbuild\CMakeFiles\4.2.0\CMakeSystem.cmake;C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\build\_deps\googletest-subbuild\googletest-populate-prefix\tmp\googletest-populate-mkdirs.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\build\_deps\googletest-subbuild\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
@@ -70,14 +70,14 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <ProjectReference Include="C:\Users\james\OneDrive - De Montfort University\GAMR2540\assignmentgamr2451-beani3\Build\_deps\googletest-subbuild\ZERO_CHECK.vcxproj">
-      <Project>{28EFD945-B089-3346-91D5-E804BEAFAE50}</Project>
+    <ProjectReference Include="C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\build\_deps\googletest-subbuild\ZERO_CHECK.vcxproj">
+      <Project>{31D684D4-9447-3A7E-A3B5-67BD24F521FA}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\james\OneDrive - De Montfort University\GAMR2540\assignmentgamr2451-beani3\Build\_deps\googletest-subbuild\googletest-populate.vcxproj">
-      <Project>{213AA123-3DA4-3F1D-AFCF-098072E9FBF7}</Project>
+    <ProjectReference Include="C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\build\_deps\googletest-subbuild\googletest-populate.vcxproj">
+      <Project>{B0B5485D-4A45-366E-8545-117D10B34980}</Project>
       <Name>googletest-populate</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>

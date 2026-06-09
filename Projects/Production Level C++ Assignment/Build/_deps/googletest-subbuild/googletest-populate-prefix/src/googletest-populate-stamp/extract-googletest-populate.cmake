@@ -5,8 +5,8 @@ cmake_minimum_required(VERSION ${CMAKE_VERSION}) # this file comes with cmake
 
 # Make file names absolute:
 #
-get_filename_component(filename "C:/Users/james/OneDrive - De Montfort University/GAMR2540/assignmentgamr2451-beani3/Build/_deps/googletest-subbuild/googletest-populate-prefix/src/03597a01ee50ed33e9dfd640b249b4be3799d395.zip" ABSOLUTE)
-get_filename_component(directory "C:/Users/james/OneDrive - De Montfort University/GAMR2540/assignmentgamr2451-beani3/Build/_deps/googletest-src" ABSOLUTE)
+get_filename_component(filename "C:/Users/james/OneDrive/Desktop/Production Level C++ Assignment/build/_deps/googletest-subbuild/googletest-populate-prefix/src/03597a01ee50ed33e9dfd640b249b4be3799d395.zip" ABSOLUTE)
+get_filename_component(directory "C:/Users/james/OneDrive/Desktop/Production Level C++ Assignment/build/_deps/googletest-src" ABSOLUTE)
 
 message(VERBOSE "extracting...
      src='${filename}'
@@ -28,8 +28,8 @@ file(MAKE_DIRECTORY "${ut_dir}")
 
 # Extract it:
 #
-message(VERBOSE "extracting... [tar xfz]")
-execute_process(COMMAND ${CMAKE_COMMAND} -E tar xfz ${filename} --touch
+message(VERBOSE "extracting... [tar xf]")
+execute_process(COMMAND ${CMAKE_COMMAND} -E tar xf ${filename} --touch
   WORKING_DIRECTORY ${ut_dir}
   RESULT_VARIABLE rv
 )

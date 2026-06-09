@@ -12,7 +12,7 @@ The project also critically examines modern rendering techniques and integrates 
 - A deeper understanding of the rendering pipeline.
 ---
 ### Running and Using The Application
-Upon downloading the project, run the ```runCMake.bat``` to access the build folder and open ```GAMR3521.sln```. Run the program inside Visual Studio and use the controls listed below:
+Upon downloading the project, run the ```runCMake.bat``` to access the build folder and open ```GAMR3521.sln```. Alternatively, you can download and unzip a prebuilt version of my project and open ```GAMR3521.exe```. Finally, run the program inside and use the controls listed below:
 - **Movement:** W, S, A, D
 - **Camera:** Arrow Keys
 - **Scene Changes:** ImGUI window

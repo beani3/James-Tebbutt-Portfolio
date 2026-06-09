@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/james/OneDrive/Desktop/Production Level C++ Assignment/build/_deps/sfml-subbuild/CMakeFiles/sfml-populate"
+		},
+		{
+			"file" : "C:/Users/james/OneDrive/Desktop/Production Level C++ Assignment/build/_deps/sfml-subbuild/CMakeFiles/ee01723426098890cbb48f27d05de996/sfml-populate.rule"
+		},
+		{
+			"file" : "C:/Users/james/OneDrive/Desktop/Production Level C++ Assignment/build/_deps/sfml-subbuild/CMakeFiles/1a91356059068b7433b2bc0d52e86ec9/sfml-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/james/OneDrive/Desktop/Production Level C++ Assignment/build/_deps/sfml-subbuild/CMakeFiles/bab68fcb2b90d9058ce5ace3ae5c5ea4/sfml-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/james/OneDrive/Desktop/Production Level C++ Assignment/build/_deps/sfml-subbuild/CMakeFiles/bab68fcb2b90d9058ce5ace3ae5c5ea4/sfml-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/james/OneDrive/Desktop/Production Level C++ Assignment/build/_deps/sfml-subbuild/CMakeFiles/bab68fcb2b90d9058ce5ace3ae5c5ea4/sfml-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/james/OneDrive/Desktop/Production Level C++ Assignment/build/_deps/sfml-subbuild/CMakeFiles/bab68fcb2b90d9058ce5ace3ae5c5ea4/sfml-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/james/OneDrive/Desktop/Production Level C++ Assignment/build/_deps/sfml-subbuild/CMakeFiles/bab68fcb2b90d9058ce5ace3ae5c5ea4/sfml-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/james/OneDrive/Desktop/Production Level C++ Assignment/build/_deps/sfml-subbuild/CMakeFiles/bab68fcb2b90d9058ce5ace3ae5c5ea4/sfml-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/james/OneDrive/Desktop/Production Level C++ Assignment/build/_deps/sfml-subbuild/CMakeFiles/bab68fcb2b90d9058ce5ace3ae5c5ea4/sfml-populate-test.rule"
+		},
+		{
+			"file" : "C:/Users/james/OneDrive/Desktop/Production Level C++ Assignment/build/_deps/sfml-subbuild/CMakeFiles/bab68fcb2b90d9058ce5ace3ae5c5ea4/sfml-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"sfml-populate"
+		],
+		"name" : "sfml-populate"
+	}
+}

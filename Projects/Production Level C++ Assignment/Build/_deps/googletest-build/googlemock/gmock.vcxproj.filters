@@ -1,19 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\build\_deps\googletest-src\googletest\src\gtest-all.cc">
+    <ClCompile Include="C:\Users\james\OneDrive\Desktop\Job Application Stuff\James-Tebbutt-Portfolio\projects\Production Level C++ Assignment\build\_deps\googletest-src\googletest\src\gtest-all.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\build\_deps\googletest-src\googlemock\src\gmock-all.cc">
+    <ClCompile Include="C:\Users\james\OneDrive\Desktop\Job Application Stuff\James-Tebbutt-Portfolio\projects\Production Level C++ Assignment\build\_deps\googletest-src\googlemock\src\gmock-all.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\build\_deps\googletest-src\googlemock\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\james\OneDrive\Desktop\Job Application Stuff\James-Tebbutt-Portfolio\projects\Production Level C++ Assignment\build\_deps\googletest-src\googlemock\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{A0EE67C7-1AAF-3C40-AF39-837B4E949523}</UniqueIdentifier>
+      <UniqueIdentifier>{1A7E2E04-043F-3286-B342-4DF21676F7ED}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

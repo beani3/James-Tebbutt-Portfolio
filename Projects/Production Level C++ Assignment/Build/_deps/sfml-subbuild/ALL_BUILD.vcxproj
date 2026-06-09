@@ -13,7 +13,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{BCD6F08A-7096-39BF-AFF8-F30906E81A5F}</ProjectGuid>
+    <ProjectGuid>{C205F0BA-B23D-3D70-8A78-75C98B415808}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
@@ -49,11 +49,11 @@
     </Midl>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\build\_deps\sfml-subbuild\CMakeLists.txt">
+    <CustomBuild Include="C:\Users\james\OneDrive\Desktop\Job Application Stuff\James-Tebbutt-Portfolio\projects\Production Level C++ Assignment\build\_deps\sfml-subbuild\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/james/OneDrive/Desktop/Production Level C++ Assignment/build/_deps/sfml-subbuild/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/james/OneDrive/Desktop/Job Application Stuff/James-Tebbutt-Portfolio/projects/Production Level C++ Assignment/build/_deps/sfml-subbuild/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/james/OneDrive/Desktop/Production Level C++ Assignment/build/_deps/sfml-subbuild" "-BC:/Users/james/OneDrive/Desktop/Production Level C++ Assignment/build/_deps/sfml-subbuild" --check-stamp-file "C:/Users/james/OneDrive/Desktop/Production Level C++ Assignment/build/_deps/sfml-subbuild/CMakeFiles/generate.stamp"
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/james/OneDrive/Desktop/Job Application Stuff/James-Tebbutt-Portfolio/projects/Production Level C++ Assignment/build/_deps/sfml-subbuild" "-BC:/Users/james/OneDrive/Desktop/Job Application Stuff/James-Tebbutt-Portfolio/projects/Production Level C++ Assignment/build/_deps/sfml-subbuild" --check-stamp-file "C:/Users/james/OneDrive/Desktop/Job Application Stuff/James-Tebbutt-Portfolio/projects/Production Level C++ Assignment/build/_deps/sfml-subbuild/CMakeFiles/generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -61,8 +61,8 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\ExternalProject\PatchInfo.txt.in;C:\Program Files\CMake\share\cmake-4.2\Modules\ExternalProject\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-4.2\Modules\ExternalProject\UpdateInfo.txt.in;C:\Program Files\CMake\share\cmake-4.2\Modules\ExternalProject\cfgcmd.txt.in;C:\Program Files\CMake\share\cmake-4.2\Modules\ExternalProject\gitclone.cmake.in;C:\Program Files\CMake\share\cmake-4.2\Modules\ExternalProject\gitupdate.cmake.in;C:\Program Files\CMake\share\cmake-4.2\Modules\ExternalProject\mkdirs.cmake.in;C:\Program Files\CMake\share\cmake-4.2\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\WindowsPaths.cmake;C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\build\_deps\sfml-subbuild\CMakeFiles\4.2.0\CMakeSystem.cmake;C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\build\_deps\sfml-subbuild\sfml-populate-prefix\tmp\sfml-populate-mkdirs.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\build\_deps\sfml-subbuild\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\ExternalProject\PatchInfo.txt.in;C:\Program Files\CMake\share\cmake-4.2\Modules\ExternalProject\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-4.2\Modules\ExternalProject\UpdateInfo.txt.in;C:\Program Files\CMake\share\cmake-4.2\Modules\ExternalProject\cfgcmd.txt.in;C:\Program Files\CMake\share\cmake-4.2\Modules\ExternalProject\gitclone.cmake.in;C:\Program Files\CMake\share\cmake-4.2\Modules\ExternalProject\gitupdate.cmake.in;C:\Program Files\CMake\share\cmake-4.2\Modules\ExternalProject\mkdirs.cmake.in;C:\Program Files\CMake\share\cmake-4.2\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\WindowsPaths.cmake;C:\Users\james\OneDrive\Desktop\Job Application Stuff\James-Tebbutt-Portfolio\projects\Production Level C++ Assignment\build\_deps\sfml-subbuild\CMakeFiles\4.2.0\CMakeSystem.cmake;C:\Users\james\OneDrive\Desktop\Job Application Stuff\James-Tebbutt-Portfolio\projects\Production Level C++ Assignment\build\_deps\sfml-subbuild\sfml-populate-prefix\tmp\sfml-populate-mkdirs.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\james\OneDrive\Desktop\Job Application Stuff\James-Tebbutt-Portfolio\projects\Production Level C++ Assignment\build\_deps\sfml-subbuild\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
@@ -70,14 +70,14 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <ProjectReference Include="C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\build\_deps\sfml-subbuild\ZERO_CHECK.vcxproj">
-      <Project>{84C5AA44-3A6A-3FB2-B641-71942CF1C47D}</Project>
+    <ProjectReference Include="C:\Users\james\OneDrive\Desktop\Job Application Stuff\James-Tebbutt-Portfolio\projects\Production Level C++ Assignment\build\_deps\sfml-subbuild\ZERO_CHECK.vcxproj">
+      <Project>{1F20BD27-0D4C-33D8-A96A-9189BA0F998B}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\build\_deps\sfml-subbuild\sfml-populate.vcxproj">
-      <Project>{C17D84AC-9C08-37E5-84B5-D3B61EBF5768}</Project>
+    <ProjectReference Include="C:\Users\james\OneDrive\Desktop\Job Application Stuff\James-Tebbutt-Portfolio\projects\Production Level C++ Assignment\build\_deps\sfml-subbuild\sfml-populate.vcxproj">
+      <Project>{E5DF2A08-8D4A-35F5-89BC-DE9FB3A7F4A1}</Project>
       <Name>sfml-populate</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>

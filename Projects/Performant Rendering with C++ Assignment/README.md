@@ -11,10 +11,12 @@ This work demonstrates a critical understanding of component-based game engine a
 - CPU-side frustum culling.
 ---
 ### Running and Using The Application
-Upon downloading the project, run the ```runCMake.bat``` to access the build folder and open ```AsteroidBelt.sln```. Run the program inside Visual Studio and use the controls listed below:
+Upon downloading the project, run the ```runCMake.bat``` to access the build folder and open ```AsteroidBelt.sln```. Alternatively, you can download and unzip a prebuilt version of my project and open ```AsteroidBelt.exe```. Finally, run the program and use the controls listed below:
 - **Movement:** W, S, A, D
 - **Acceleration:** Arrow Keys
 ---
 ### Additional Information
 - The project uses a renderer and demo written by the lecturer of this and the previous module. 
 - As apart of the assignment, we were expected to profile and evaluate performance of the program after each optimisation was implemented. Those reports are inside the "Reports" folder.
+### Screenshots
+![Performant-Rendering-01](../screenshots/performant-rendering-01.png)

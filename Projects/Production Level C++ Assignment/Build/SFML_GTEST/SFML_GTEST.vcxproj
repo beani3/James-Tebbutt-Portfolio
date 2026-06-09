@@ -22,7 +22,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{AF36CE4C-B58D-3F5D-97BB-88EABDFF1378}</ProjectGuid>
+    <ProjectGuid>{BBA482BD-85AB-3027-A7F4-CF441389934D}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
@@ -59,25 +59,25 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\build\bin\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\james\OneDrive\Desktop\Job Application Stuff\James-Tebbutt-Portfolio\projects\Production Level C++ Assignment\build\bin\Debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">SFML_GTEST.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">SFML_GTEST</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\build\bin\Release\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\james\OneDrive\Desktop\Job Application Stuff\James-Tebbutt-Portfolio\projects\Production Level C++ Assignment\build\bin\Release\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">SFML_GTEST.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">SFML_GTEST</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\build\bin\MinSizeRel\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\james\OneDrive\Desktop\Job Application Stuff\James-Tebbutt-Portfolio\projects\Production Level C++ Assignment\build\bin\MinSizeRel\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">SFML_GTEST.dir\MinSizeRel\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">SFML_GTEST</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\build\bin\RelWithDebInfo\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\james\OneDrive\Desktop\Job Application Stuff\James-Tebbutt-Portfolio\projects\Production Level C++ Assignment\build\bin\RelWithDebInfo\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">SFML_GTEST.dir\RelWithDebInfo\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">SFML_GTEST</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
@@ -86,7 +86,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\SFML_GTEST\include;C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\build\_deps\sfml-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\james\OneDrive\Desktop\Job Application Stuff\James-Tebbutt-Portfolio\projects\Production Level C++ Assignment\SFML_GTEST\include;C:\Users\james\OneDrive\Desktop\Job Application Stuff\James-Tebbutt-Portfolio\projects\Production Level C++ Assignment\build\_deps\sfml-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <BufferSecurityCheck></BufferSecurityCheck>
@@ -111,10 +111,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;NOMINMAX;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\SFML_GTEST\include;C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\build\_deps\sfml-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\james\OneDrive\Desktop\Job Application Stuff\James-Tebbutt-Portfolio\projects\Production Level C++ Assignment\SFML_GTEST\include;C:\Users\james\OneDrive\Desktop\Job Application Stuff\James-Tebbutt-Portfolio\projects\Production Level C++ Assignment\build\_deps\sfml-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\SFML_GTEST\include;C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\build\_deps\sfml-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\james\OneDrive\Desktop\Job Application Stuff\James-Tebbutt-Portfolio\projects\Production Level C++ Assignment\SFML_GTEST\include;C:\Users\james\OneDrive\Desktop\Job Application Stuff\James-Tebbutt-Portfolio\projects\Production Level C++ Assignment\build\_deps\sfml-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -129,9 +129,9 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
       <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
-      <ImportLibrary>C:/Users/james/OneDrive/Desktop/Production Level C++ Assignment/build/SFML_GTEST/Debug/SFML_GTEST.lib</ImportLibrary>
+      <ImportLibrary>C:/Users/james/OneDrive/Desktop/Job Application Stuff/James-Tebbutt-Portfolio/projects/Production Level C++ Assignment/build/SFML_GTEST/Debug/SFML_GTEST.lib</ImportLibrary>
       <LinkErrorReporting></LinkErrorReporting>
-      <ProgramDataBaseFile>C:/Users/james/OneDrive/Desktop/Production Level C++ Assignment/build/bin/Debug/SFML_GTEST.pdb</ProgramDataBaseFile>
+      <ProgramDataBaseFile>C:/Users/james/OneDrive/Desktop/Job Application Stuff/James-Tebbutt-Portfolio/projects/Production Level C++ Assignment/build/bin/Debug/SFML_GTEST.pdb</ProgramDataBaseFile>
       <RandomizedBaseAddress></RandomizedBaseAddress>
       <SubSystem>Console</SubSystem>
     </Link>
@@ -141,7 +141,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\SFML_GTEST\include;C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\build\_deps\sfml-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\james\OneDrive\Desktop\Job Application Stuff\James-Tebbutt-Portfolio\projects\Production Level C++ Assignment\SFML_GTEST\include;C:\Users\james\OneDrive\Desktop\Job Application Stuff\James-Tebbutt-Portfolio\projects\Production Level C++ Assignment\build\_deps\sfml-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
       <BufferSecurityCheck></BufferSecurityCheck>
@@ -167,10 +167,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;NOMINMAX;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\SFML_GTEST\include;C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\build\_deps\sfml-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\james\OneDrive\Desktop\Job Application Stuff\James-Tebbutt-Portfolio\projects\Production Level C++ Assignment\SFML_GTEST\include;C:\Users\james\OneDrive\Desktop\Job Application Stuff\James-Tebbutt-Portfolio\projects\Production Level C++ Assignment\build\_deps\sfml-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\SFML_GTEST\include;C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\build\_deps\sfml-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\james\OneDrive\Desktop\Job Application Stuff\James-Tebbutt-Portfolio\projects\Production Level C++ Assignment\SFML_GTEST\include;C:\Users\james\OneDrive\Desktop\Job Application Stuff\James-Tebbutt-Portfolio\projects\Production Level C++ Assignment\build\_deps\sfml-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -185,9 +185,9 @@
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
       <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
-      <ImportLibrary>C:/Users/james/OneDrive/Desktop/Production Level C++ Assignment/build/SFML_GTEST/Release/SFML_GTEST.lib</ImportLibrary>
+      <ImportLibrary>C:/Users/james/OneDrive/Desktop/Job Application Stuff/James-Tebbutt-Portfolio/projects/Production Level C++ Assignment/build/SFML_GTEST/Release/SFML_GTEST.lib</ImportLibrary>
       <LinkErrorReporting></LinkErrorReporting>
-      <ProgramDataBaseFile>C:/Users/james/OneDrive/Desktop/Production Level C++ Assignment/build/bin/Release/SFML_GTEST.pdb</ProgramDataBaseFile>
+      <ProgramDataBaseFile>C:/Users/james/OneDrive/Desktop/Job Application Stuff/James-Tebbutt-Portfolio/projects/Production Level C++ Assignment/build/bin/Release/SFML_GTEST.pdb</ProgramDataBaseFile>
       <RandomizedBaseAddress></RandomizedBaseAddress>
       <SubSystem>Console</SubSystem>
     </Link>
@@ -197,7 +197,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\SFML_GTEST\include;C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\build\_deps\sfml-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\james\OneDrive\Desktop\Job Application Stuff\James-Tebbutt-Portfolio\projects\Production Level C++ Assignment\SFML_GTEST\include;C:\Users\james\OneDrive\Desktop\Job Application Stuff\James-Tebbutt-Portfolio\projects\Production Level C++ Assignment\build\_deps\sfml-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
       <BufferSecurityCheck></BufferSecurityCheck>
@@ -223,10 +223,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;NOMINMAX;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\SFML_GTEST\include;C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\build\_deps\sfml-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\james\OneDrive\Desktop\Job Application Stuff\James-Tebbutt-Portfolio\projects\Production Level C++ Assignment\SFML_GTEST\include;C:\Users\james\OneDrive\Desktop\Job Application Stuff\James-Tebbutt-Portfolio\projects\Production Level C++ Assignment\build\_deps\sfml-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\SFML_GTEST\include;C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\build\_deps\sfml-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\james\OneDrive\Desktop\Job Application Stuff\James-Tebbutt-Portfolio\projects\Production Level C++ Assignment\SFML_GTEST\include;C:\Users\james\OneDrive\Desktop\Job Application Stuff\James-Tebbutt-Portfolio\projects\Production Level C++ Assignment\build\_deps\sfml-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -241,9 +241,9 @@
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
       <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
-      <ImportLibrary>C:/Users/james/OneDrive/Desktop/Production Level C++ Assignment/build/SFML_GTEST/MinSizeRel/SFML_GTEST.lib</ImportLibrary>
+      <ImportLibrary>C:/Users/james/OneDrive/Desktop/Job Application Stuff/James-Tebbutt-Portfolio/projects/Production Level C++ Assignment/build/SFML_GTEST/MinSizeRel/SFML_GTEST.lib</ImportLibrary>
       <LinkErrorReporting></LinkErrorReporting>
-      <ProgramDataBaseFile>C:/Users/james/OneDrive/Desktop/Production Level C++ Assignment/build/bin/MinSizeRel/SFML_GTEST.pdb</ProgramDataBaseFile>
+      <ProgramDataBaseFile>C:/Users/james/OneDrive/Desktop/Job Application Stuff/James-Tebbutt-Portfolio/projects/Production Level C++ Assignment/build/bin/MinSizeRel/SFML_GTEST.pdb</ProgramDataBaseFile>
       <RandomizedBaseAddress></RandomizedBaseAddress>
       <SubSystem>Console</SubSystem>
     </Link>
@@ -253,7 +253,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\SFML_GTEST\include;C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\build\_deps\sfml-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\james\OneDrive\Desktop\Job Application Stuff\James-Tebbutt-Portfolio\projects\Production Level C++ Assignment\SFML_GTEST\include;C:\Users\james\OneDrive\Desktop\Job Application Stuff\James-Tebbutt-Portfolio\projects\Production Level C++ Assignment\build\_deps\sfml-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
       <BufferSecurityCheck></BufferSecurityCheck>
@@ -278,10 +278,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;NOMINMAX;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\SFML_GTEST\include;C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\build\_deps\sfml-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\james\OneDrive\Desktop\Job Application Stuff\James-Tebbutt-Portfolio\projects\Production Level C++ Assignment\SFML_GTEST\include;C:\Users\james\OneDrive\Desktop\Job Application Stuff\James-Tebbutt-Portfolio\projects\Production Level C++ Assignment\build\_deps\sfml-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\SFML_GTEST\include;C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\build\_deps\sfml-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\james\OneDrive\Desktop\Job Application Stuff\James-Tebbutt-Portfolio\projects\Production Level C++ Assignment\SFML_GTEST\include;C:\Users\james\OneDrive\Desktop\Job Application Stuff\James-Tebbutt-Portfolio\projects\Production Level C++ Assignment\build\_deps\sfml-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -296,9 +296,9 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
       <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
-      <ImportLibrary>C:/Users/james/OneDrive/Desktop/Production Level C++ Assignment/build/SFML_GTEST/RelWithDebInfo/SFML_GTEST.lib</ImportLibrary>
+      <ImportLibrary>C:/Users/james/OneDrive/Desktop/Job Application Stuff/James-Tebbutt-Portfolio/projects/Production Level C++ Assignment/build/SFML_GTEST/RelWithDebInfo/SFML_GTEST.lib</ImportLibrary>
       <LinkErrorReporting></LinkErrorReporting>
-      <ProgramDataBaseFile>C:/Users/james/OneDrive/Desktop/Production Level C++ Assignment/build/bin/RelWithDebInfo/SFML_GTEST.pdb</ProgramDataBaseFile>
+      <ProgramDataBaseFile>C:/Users/james/OneDrive/Desktop/Job Application Stuff/James-Tebbutt-Portfolio/projects/Production Level C++ Assignment/build/bin/RelWithDebInfo/SFML_GTEST.pdb</ProgramDataBaseFile>
       <RandomizedBaseAddress></RandomizedBaseAddress>
       <SubSystem>Console</SubSystem>
     </Link>
@@ -307,11 +307,11 @@
     </ProjectReference>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\SFML_GTEST\CMakeLists.txt">
+    <CustomBuild Include="C:\Users\james\OneDrive\Desktop\Job Application Stuff\James-Tebbutt-Portfolio\projects\Production Level C++ Assignment\SFML_GTEST\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/james/OneDrive/Desktop/Production Level C++ Assignment/SFML_GTEST/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/james/OneDrive/Desktop/Job Application Stuff/James-Tebbutt-Portfolio/projects/Production Level C++ Assignment/SFML_GTEST/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/james/OneDrive/Desktop/Production Level C++ Assignment" "-BC:/Users/james/OneDrive/Desktop/Production Level C++ Assignment/build" --check-stamp-file "C:/Users/james/OneDrive/Desktop/Production Level C++ Assignment/build/SFML_GTEST/CMakeFiles/generate.stamp"
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/james/OneDrive/Desktop/Job Application Stuff/James-Tebbutt-Portfolio/projects/Production Level C++ Assignment" "-BC:/Users/james/OneDrive/Desktop/Job Application Stuff/James-Tebbutt-Portfolio/projects/Production Level C++ Assignment/build" --check-stamp-file "C:/Users/james/OneDrive/Desktop/Job Application Stuff/James-Tebbutt-Portfolio/projects/Production Level C++ Assignment/build/SFML_GTEST/CMakeFiles/generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -320,11 +320,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-4.2\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FetchContent.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FetchContent\CMakeLists.cmake.in;C:\Program Files\CMake\share\cmake-4.2\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindPackageMessage.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\build\SFML_GTEST\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\james\OneDrive\Desktop\Job Application Stuff\James-Tebbutt-Portfolio\projects\Production Level C++ Assignment\build\SFML_GTEST\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/james/OneDrive/Desktop/Production Level C++ Assignment/SFML_GTEST/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/james/OneDrive/Desktop/Job Application Stuff/James-Tebbutt-Portfolio/projects/Production Level C++ Assignment/SFML_GTEST/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/james/OneDrive/Desktop/Production Level C++ Assignment" "-BC:/Users/james/OneDrive/Desktop/Production Level C++ Assignment/build" --check-stamp-file "C:/Users/james/OneDrive/Desktop/Production Level C++ Assignment/build/SFML_GTEST/CMakeFiles/generate.stamp"
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/james/OneDrive/Desktop/Job Application Stuff/James-Tebbutt-Portfolio/projects/Production Level C++ Assignment" "-BC:/Users/james/OneDrive/Desktop/Job Application Stuff/James-Tebbutt-Portfolio/projects/Production Level C++ Assignment/build" --check-stamp-file "C:/Users/james/OneDrive/Desktop/Job Application Stuff/James-Tebbutt-Portfolio/projects/Production Level C++ Assignment/build/SFML_GTEST/CMakeFiles/generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -333,11 +333,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-4.2\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FetchContent.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FetchContent\CMakeLists.cmake.in;C:\Program Files\CMake\share\cmake-4.2\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindPackageMessage.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\build\SFML_GTEST\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\james\OneDrive\Desktop\Job Application Stuff\James-Tebbutt-Portfolio\projects\Production Level C++ Assignment\build\SFML_GTEST\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/james/OneDrive/Desktop/Production Level C++ Assignment/SFML_GTEST/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/james/OneDrive/Desktop/Job Application Stuff/James-Tebbutt-Portfolio/projects/Production Level C++ Assignment/SFML_GTEST/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/james/OneDrive/Desktop/Production Level C++ Assignment" "-BC:/Users/james/OneDrive/Desktop/Production Level C++ Assignment/build" --check-stamp-file "C:/Users/james/OneDrive/Desktop/Production Level C++ Assignment/build/SFML_GTEST/CMakeFiles/generate.stamp"
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/james/OneDrive/Desktop/Job Application Stuff/James-Tebbutt-Portfolio/projects/Production Level C++ Assignment" "-BC:/Users/james/OneDrive/Desktop/Job Application Stuff/James-Tebbutt-Portfolio/projects/Production Level C++ Assignment/build" --check-stamp-file "C:/Users/james/OneDrive/Desktop/Job Application Stuff/James-Tebbutt-Portfolio/projects/Production Level C++ Assignment/build/SFML_GTEST/CMakeFiles/generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -346,11 +346,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-4.2\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FetchContent.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FetchContent\CMakeLists.cmake.in;C:\Program Files\CMake\share\cmake-4.2\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindPackageMessage.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\build\SFML_GTEST\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\james\OneDrive\Desktop\Job Application Stuff\James-Tebbutt-Portfolio\projects\Production Level C++ Assignment\build\SFML_GTEST\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/james/OneDrive/Desktop/Production Level C++ Assignment/SFML_GTEST/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/james/OneDrive/Desktop/Job Application Stuff/James-Tebbutt-Portfolio/projects/Production Level C++ Assignment/SFML_GTEST/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/james/OneDrive/Desktop/Production Level C++ Assignment" "-BC:/Users/james/OneDrive/Desktop/Production Level C++ Assignment/build" --check-stamp-file "C:/Users/james/OneDrive/Desktop/Production Level C++ Assignment/build/SFML_GTEST/CMakeFiles/generate.stamp"
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/james/OneDrive/Desktop/Job Application Stuff/James-Tebbutt-Portfolio/projects/Production Level C++ Assignment" "-BC:/Users/james/OneDrive/Desktop/Job Application Stuff/James-Tebbutt-Portfolio/projects/Production Level C++ Assignment/build" --check-stamp-file "C:/Users/james/OneDrive/Desktop/Job Application Stuff/James-Tebbutt-Portfolio/projects/Production Level C++ Assignment/build/SFML_GTEST/CMakeFiles/generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -359,58 +359,58 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-4.2\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FetchContent.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FetchContent\CMakeLists.cmake.in;C:\Program Files\CMake\share\cmake-4.2\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindPackageMessage.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\build\SFML_GTEST\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\james\OneDrive\Desktop\Job Application Stuff\James-Tebbutt-Portfolio\projects\Production Level C++ Assignment\build\SFML_GTEST\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\SFML_GTEST\src\Main.cpp" />
-    <ClCompile Include="C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\SFML_GTEST\src\DynamicObject.cpp" />
-    <ClCompile Include="C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\SFML_GTEST\src\StaticObject.cpp" />
-    <ClCompile Include="C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\SFML_GTEST\src\AnimationManager.cpp" />
-    <ClCompile Include="C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\SFML_GTEST\src\EnemyNPC.cpp" />
-    <ClCompile Include="C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\SFML_GTEST\src\GameEngine.cpp" />
-    <ClCompile Include="C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\SFML_GTEST\src\PlayerCharacter.cpp" />
-    <ClCompile Include="C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\SFML_GTEST\src\Tilemap.cpp" />
-    <ClCompile Include="C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\SFML_GTEST\src\SplashScreen.cpp" />
-    <ClInclude Include="C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\SFML_GTEST\include\DynamicObject.h" />
-    <ClInclude Include="C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\SFML_GTEST\include\GameObject.h" />
-    <ClInclude Include="C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\SFML_GTEST\include\StaticObject.h" />
-    <ClInclude Include="C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\SFML_GTEST\include\AnimationManager.h" />
-    <ClInclude Include="C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\SFML_GTEST\include\EnemyNPC.h" />
-    <ClInclude Include="C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\SFML_GTEST\include\GameEngine.h" />
-    <ClInclude Include="C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\SFML_GTEST\include\PlayerCharacter.h" />
-    <ClInclude Include="C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\SFML_GTEST\include\Tilemap.h" />
-    <ClInclude Include="C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\SFML_GTEST\include\EnemyBuilder.h" />
-    <ClInclude Include="C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\SFML_GTEST\include\NPCBuilder.h" />
-    <ClInclude Include="C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\SFML_GTEST\include\SplashScreen.h" />
+    <ClCompile Include="C:\Users\james\OneDrive\Desktop\Job Application Stuff\James-Tebbutt-Portfolio\projects\Production Level C++ Assignment\SFML_GTEST\src\Main.cpp" />
+    <ClCompile Include="C:\Users\james\OneDrive\Desktop\Job Application Stuff\James-Tebbutt-Portfolio\projects\Production Level C++ Assignment\SFML_GTEST\src\DynamicObject.cpp" />
+    <ClCompile Include="C:\Users\james\OneDrive\Desktop\Job Application Stuff\James-Tebbutt-Portfolio\projects\Production Level C++ Assignment\SFML_GTEST\src\StaticObject.cpp" />
+    <ClCompile Include="C:\Users\james\OneDrive\Desktop\Job Application Stuff\James-Tebbutt-Portfolio\projects\Production Level C++ Assignment\SFML_GTEST\src\AnimationManager.cpp" />
+    <ClCompile Include="C:\Users\james\OneDrive\Desktop\Job Application Stuff\James-Tebbutt-Portfolio\projects\Production Level C++ Assignment\SFML_GTEST\src\EnemyNPC.cpp" />
+    <ClCompile Include="C:\Users\james\OneDrive\Desktop\Job Application Stuff\James-Tebbutt-Portfolio\projects\Production Level C++ Assignment\SFML_GTEST\src\GameEngine.cpp" />
+    <ClCompile Include="C:\Users\james\OneDrive\Desktop\Job Application Stuff\James-Tebbutt-Portfolio\projects\Production Level C++ Assignment\SFML_GTEST\src\PlayerCharacter.cpp" />
+    <ClCompile Include="C:\Users\james\OneDrive\Desktop\Job Application Stuff\James-Tebbutt-Portfolio\projects\Production Level C++ Assignment\SFML_GTEST\src\Tilemap.cpp" />
+    <ClCompile Include="C:\Users\james\OneDrive\Desktop\Job Application Stuff\James-Tebbutt-Portfolio\projects\Production Level C++ Assignment\SFML_GTEST\src\SplashScreen.cpp" />
+    <ClInclude Include="C:\Users\james\OneDrive\Desktop\Job Application Stuff\James-Tebbutt-Portfolio\projects\Production Level C++ Assignment\SFML_GTEST\include\DynamicObject.h" />
+    <ClInclude Include="C:\Users\james\OneDrive\Desktop\Job Application Stuff\James-Tebbutt-Portfolio\projects\Production Level C++ Assignment\SFML_GTEST\include\GameObject.h" />
+    <ClInclude Include="C:\Users\james\OneDrive\Desktop\Job Application Stuff\James-Tebbutt-Portfolio\projects\Production Level C++ Assignment\SFML_GTEST\include\StaticObject.h" />
+    <ClInclude Include="C:\Users\james\OneDrive\Desktop\Job Application Stuff\James-Tebbutt-Portfolio\projects\Production Level C++ Assignment\SFML_GTEST\include\AnimationManager.h" />
+    <ClInclude Include="C:\Users\james\OneDrive\Desktop\Job Application Stuff\James-Tebbutt-Portfolio\projects\Production Level C++ Assignment\SFML_GTEST\include\EnemyNPC.h" />
+    <ClInclude Include="C:\Users\james\OneDrive\Desktop\Job Application Stuff\James-Tebbutt-Portfolio\projects\Production Level C++ Assignment\SFML_GTEST\include\GameEngine.h" />
+    <ClInclude Include="C:\Users\james\OneDrive\Desktop\Job Application Stuff\James-Tebbutt-Portfolio\projects\Production Level C++ Assignment\SFML_GTEST\include\PlayerCharacter.h" />
+    <ClInclude Include="C:\Users\james\OneDrive\Desktop\Job Application Stuff\James-Tebbutt-Portfolio\projects\Production Level C++ Assignment\SFML_GTEST\include\Tilemap.h" />
+    <ClInclude Include="C:\Users\james\OneDrive\Desktop\Job Application Stuff\James-Tebbutt-Portfolio\projects\Production Level C++ Assignment\SFML_GTEST\include\EnemyBuilder.h" />
+    <ClInclude Include="C:\Users\james\OneDrive\Desktop\Job Application Stuff\James-Tebbutt-Portfolio\projects\Production Level C++ Assignment\SFML_GTEST\include\NPCBuilder.h" />
+    <ClInclude Include="C:\Users\james\OneDrive\Desktop\Job Application Stuff\James-Tebbutt-Portfolio\projects\Production Level C++ Assignment\SFML_GTEST\include\SplashScreen.h" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <ProjectReference Include="C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\build\ZERO_CHECK.vcxproj">
-      <Project>{BC3A2623-824C-39E2-AC59-F36847B5D2DB}</Project>
+    <ProjectReference Include="C:\Users\james\OneDrive\Desktop\Job Application Stuff\James-Tebbutt-Portfolio\projects\Production Level C++ Assignment\build\ZERO_CHECK.vcxproj">
+      <Project>{52C17659-2136-345C-9FB8-41C40225738C}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\build\_deps\sfml-build\src\SFML\Audio\sfml-audio.vcxproj">
-      <Project>{609E19A8-B8BA-35CE-AED3-CB5643CD1308}</Project>
+    <ProjectReference Include="C:\Users\james\OneDrive\Desktop\Job Application Stuff\James-Tebbutt-Portfolio\projects\Production Level C++ Assignment\build\_deps\sfml-build\src\SFML\Audio\sfml-audio.vcxproj">
+      <Project>{E7BCD444-4754-3927-ACB5-366DAA5212C4}</Project>
       <Name>sfml-audio</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\build\_deps\sfml-build\src\SFML\Graphics\sfml-graphics.vcxproj">
-      <Project>{E00F4C72-19F3-3EC6-AC49-75AA96DE8A58}</Project>
+    <ProjectReference Include="C:\Users\james\OneDrive\Desktop\Job Application Stuff\James-Tebbutt-Portfolio\projects\Production Level C++ Assignment\build\_deps\sfml-build\src\SFML\Graphics\sfml-graphics.vcxproj">
+      <Project>{A905BFE9-CCD4-348B-9544-B2C3BCB077E6}</Project>
       <Name>sfml-graphics</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\build\_deps\sfml-build\src\SFML\Network\sfml-network.vcxproj">
-      <Project>{365C9912-EA36-3AFF-9559-E9B19F2B847E}</Project>
+    <ProjectReference Include="C:\Users\james\OneDrive\Desktop\Job Application Stuff\James-Tebbutt-Portfolio\projects\Production Level C++ Assignment\build\_deps\sfml-build\src\SFML\Network\sfml-network.vcxproj">
+      <Project>{C3264DC8-0A29-3D8D-95C5-96F02198D13C}</Project>
       <Name>sfml-network</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\build\_deps\sfml-build\src\SFML\System\sfml-system.vcxproj">
-      <Project>{187F973D-F4CC-3692-A28D-AC4BA2C89B36}</Project>
+    <ProjectReference Include="C:\Users\james\OneDrive\Desktop\Job Application Stuff\James-Tebbutt-Portfolio\projects\Production Level C++ Assignment\build\_deps\sfml-build\src\SFML\System\sfml-system.vcxproj">
+      <Project>{5DA4B70E-C080-35D1-A951-C1C94B9AABED}</Project>
       <Name>sfml-system</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\build\_deps\sfml-build\src\SFML\Window\sfml-window.vcxproj">
-      <Project>{BD8FD9AF-7AFA-3CDC-AD01-A0D31256B6E5}</Project>
+    <ProjectReference Include="C:\Users\james\OneDrive\Desktop\Job Application Stuff\James-Tebbutt-Portfolio\projects\Production Level C++ Assignment\build\_deps\sfml-build\src\SFML\Window\sfml-window.vcxproj">
+      <Project>{1E14C59D-1F32-3206-A892-A41A163176C7}</Project>
       <Name>sfml-window</Name>
     </ProjectReference>
   </ItemGroup>

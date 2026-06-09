@@ -2,7 +2,7 @@
 #include <iostream>
 
 Tilemap::Tilemap() {
-	s_sprite = createObject("../Assets/TinySwords/Terrain/Ground/Tilemap_Flat.png", 0, 0, sf::Vector2f(0, 0)); 
+	s_sprite = createObject("../../assets/TinySwords/Terrain/Ground/Tilemap_Flat.png", 0, 0, sf::Vector2f(0, 0)); 
 }
 
 void Tilemap::drawTilemap(sf::RenderWindow& window) {

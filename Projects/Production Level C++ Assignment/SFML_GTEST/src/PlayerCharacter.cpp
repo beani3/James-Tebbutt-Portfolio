@@ -12,7 +12,7 @@ PlayerCharacter::PlayerCharacter(float f_speed, float f_health, sf::Vector2f v2_
 	 * @ sets the sprite, position (transform), rotation, and scale.
 	 * Order is important. Remember TRanSform. Thanks Connor :)
 	 */
-	s_sprite = createObject("../assets/TinySwords/Factions/Knights/Troops/Warrior/Purple/Warrior_Purple-Idle.png", 0, 0, sf::Vector2f(192, 192));
+	s_sprite = createObject("../../assets/TinySwords/Factions/Knights/Troops/Warrior/Purple/Warrior_Purple-Idle.png", 0, 0, sf::Vector2f(192, 192));
 	setSprite(s_sprite);
 	s_sprite.setOrigin(s_sprite.getTextureRect().width / 2, s_sprite.getTextureRect().height / 2);
 	s_sprite.setPosition(v2_pos);

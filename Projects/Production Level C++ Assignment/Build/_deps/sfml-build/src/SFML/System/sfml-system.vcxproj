@@ -22,7 +22,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{187F973D-F4CC-3692-A28D-AC4BA2C89B36}</ProjectGuid>
+    <ProjectGuid>{5DA4B70E-C080-35D1-A951-C1C94B9AABED}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
@@ -59,25 +59,25 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\build\bin\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\james\OneDrive\Desktop\Job Application Stuff\James-Tebbutt-Portfolio\projects\Production Level C++ Assignment\build\bin\Debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">sfml-system.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">sfml-system-d-2</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.dll</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\build\bin\Release\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\james\OneDrive\Desktop\Job Application Stuff\James-Tebbutt-Portfolio\projects\Production Level C++ Assignment\build\bin\Release\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">sfml-system.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">sfml-system-2</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.dll</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\build\bin\MinSizeRel\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\james\OneDrive\Desktop\Job Application Stuff\James-Tebbutt-Portfolio\projects\Production Level C++ Assignment\build\bin\MinSizeRel\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">sfml-system.dir\MinSizeRel\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">sfml-system-2</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.dll</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\build\bin\RelWithDebInfo\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\james\OneDrive\Desktop\Job Application Stuff\James-Tebbutt-Portfolio\projects\Production Level C++ Assignment\build\bin\RelWithDebInfo\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">sfml-system.dir\RelWithDebInfo\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">sfml-system-2</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.dll</TargetExt>
@@ -87,7 +87,7 @@
   <PropertyGroup />
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\build\_deps\sfml-src\include;C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\build\_deps\sfml-src\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\james\OneDrive\Desktop\Job Application Stuff\James-Tebbutt-Portfolio\projects\Production Level C++ Assignment\build\_deps\sfml-src\include;C:\Users\james\OneDrive\Desktop\Job Application Stuff\James-Tebbutt-Portfolio\projects\Production Level C++ Assignment\build\_deps\sfml-src\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <BufferSecurityCheck></BufferSecurityCheck>
@@ -112,10 +112,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;NOMINMAX;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Debug\";SFML_SYSTEM_EXPORTS</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\build\_deps\sfml-src\include;C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\build\_deps\sfml-src\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\james\OneDrive\Desktop\Job Application Stuff\James-Tebbutt-Portfolio\projects\Production Level C++ Assignment\build\_deps\sfml-src\include;C:\Users\james\OneDrive\Desktop\Job Application Stuff\James-Tebbutt-Portfolio\projects\Production Level C++ Assignment\build\_deps\sfml-src\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\build\_deps\sfml-src\include;C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\build\_deps\sfml-src\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\james\OneDrive\Desktop\Job Application Stuff\James-Tebbutt-Portfolio\projects\Production Level C++ Assignment\build\_deps\sfml-src\include;C:\Users\james\OneDrive\Desktop\Job Application Stuff\James-Tebbutt-Portfolio\projects\Production Level C++ Assignment\build\_deps\sfml-src\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -130,9 +130,9 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
       <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
-      <ImportLibrary>C:/Users/james/OneDrive/Desktop/Production Level C++ Assignment/build/_deps/sfml-build/lib/Debug/sfml-system-d.lib</ImportLibrary>
+      <ImportLibrary>C:/Users/james/OneDrive/Desktop/Job Application Stuff/James-Tebbutt-Portfolio/projects/Production Level C++ Assignment/build/_deps/sfml-build/lib/Debug/sfml-system-d.lib</ImportLibrary>
       <LinkErrorReporting></LinkErrorReporting>
-      <ProgramDataBaseFile>C:/Users/james/OneDrive/Desktop/Production Level C++ Assignment/build/_deps/sfml-build/lib/Debug/sfml-system.pdb</ProgramDataBaseFile>
+      <ProgramDataBaseFile>C:/Users/james/OneDrive/Desktop/Job Application Stuff/James-Tebbutt-Portfolio/projects/Production Level C++ Assignment/build/_deps/sfml-build/lib/Debug/sfml-system.pdb</ProgramDataBaseFile>
       <RandomizedBaseAddress></RandomizedBaseAddress>
       <SubSystem></SubSystem>
       <Version>2.6</Version>
@@ -143,7 +143,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\build\_deps\sfml-src\include;C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\build\_deps\sfml-src\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\james\OneDrive\Desktop\Job Application Stuff\James-Tebbutt-Portfolio\projects\Production Level C++ Assignment\build\_deps\sfml-src\include;C:\Users\james\OneDrive\Desktop\Job Application Stuff\James-Tebbutt-Portfolio\projects\Production Level C++ Assignment\build\_deps\sfml-src\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
       <BufferSecurityCheck></BufferSecurityCheck>
@@ -169,10 +169,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;NOMINMAX;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Release\";SFML_SYSTEM_EXPORTS</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\build\_deps\sfml-src\include;C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\build\_deps\sfml-src\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\james\OneDrive\Desktop\Job Application Stuff\James-Tebbutt-Portfolio\projects\Production Level C++ Assignment\build\_deps\sfml-src\include;C:\Users\james\OneDrive\Desktop\Job Application Stuff\James-Tebbutt-Portfolio\projects\Production Level C++ Assignment\build\_deps\sfml-src\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\build\_deps\sfml-src\include;C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\build\_deps\sfml-src\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\james\OneDrive\Desktop\Job Application Stuff\James-Tebbutt-Portfolio\projects\Production Level C++ Assignment\build\_deps\sfml-src\include;C:\Users\james\OneDrive\Desktop\Job Application Stuff\James-Tebbutt-Portfolio\projects\Production Level C++ Assignment\build\_deps\sfml-src\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -187,9 +187,9 @@
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
       <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
-      <ImportLibrary>C:/Users/james/OneDrive/Desktop/Production Level C++ Assignment/build/_deps/sfml-build/lib/Release/sfml-system.lib</ImportLibrary>
+      <ImportLibrary>C:/Users/james/OneDrive/Desktop/Job Application Stuff/James-Tebbutt-Portfolio/projects/Production Level C++ Assignment/build/_deps/sfml-build/lib/Release/sfml-system.lib</ImportLibrary>
       <LinkErrorReporting></LinkErrorReporting>
-      <ProgramDataBaseFile>C:/Users/james/OneDrive/Desktop/Production Level C++ Assignment/build/_deps/sfml-build/lib/Release/sfml-system.pdb</ProgramDataBaseFile>
+      <ProgramDataBaseFile>C:/Users/james/OneDrive/Desktop/Job Application Stuff/James-Tebbutt-Portfolio/projects/Production Level C++ Assignment/build/_deps/sfml-build/lib/Release/sfml-system.pdb</ProgramDataBaseFile>
       <RandomizedBaseAddress></RandomizedBaseAddress>
       <SubSystem></SubSystem>
       <Version>2.6</Version>
@@ -200,7 +200,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\build\_deps\sfml-src\include;C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\build\_deps\sfml-src\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\james\OneDrive\Desktop\Job Application Stuff\James-Tebbutt-Portfolio\projects\Production Level C++ Assignment\build\_deps\sfml-src\include;C:\Users\james\OneDrive\Desktop\Job Application Stuff\James-Tebbutt-Portfolio\projects\Production Level C++ Assignment\build\_deps\sfml-src\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
       <BufferSecurityCheck></BufferSecurityCheck>
@@ -226,10 +226,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;NOMINMAX;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"MinSizeRel\";SFML_SYSTEM_EXPORTS</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\build\_deps\sfml-src\include;C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\build\_deps\sfml-src\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\james\OneDrive\Desktop\Job Application Stuff\James-Tebbutt-Portfolio\projects\Production Level C++ Assignment\build\_deps\sfml-src\include;C:\Users\james\OneDrive\Desktop\Job Application Stuff\James-Tebbutt-Portfolio\projects\Production Level C++ Assignment\build\_deps\sfml-src\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\build\_deps\sfml-src\include;C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\build\_deps\sfml-src\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\james\OneDrive\Desktop\Job Application Stuff\James-Tebbutt-Portfolio\projects\Production Level C++ Assignment\build\_deps\sfml-src\include;C:\Users\james\OneDrive\Desktop\Job Application Stuff\James-Tebbutt-Portfolio\projects\Production Level C++ Assignment\build\_deps\sfml-src\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -244,9 +244,9 @@
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
       <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
-      <ImportLibrary>C:/Users/james/OneDrive/Desktop/Production Level C++ Assignment/build/_deps/sfml-build/lib/MinSizeRel/sfml-system.lib</ImportLibrary>
+      <ImportLibrary>C:/Users/james/OneDrive/Desktop/Job Application Stuff/James-Tebbutt-Portfolio/projects/Production Level C++ Assignment/build/_deps/sfml-build/lib/MinSizeRel/sfml-system.lib</ImportLibrary>
       <LinkErrorReporting></LinkErrorReporting>
-      <ProgramDataBaseFile>C:/Users/james/OneDrive/Desktop/Production Level C++ Assignment/build/_deps/sfml-build/lib/MinSizeRel/sfml-system.pdb</ProgramDataBaseFile>
+      <ProgramDataBaseFile>C:/Users/james/OneDrive/Desktop/Job Application Stuff/James-Tebbutt-Portfolio/projects/Production Level C++ Assignment/build/_deps/sfml-build/lib/MinSizeRel/sfml-system.pdb</ProgramDataBaseFile>
       <RandomizedBaseAddress></RandomizedBaseAddress>
       <SubSystem></SubSystem>
       <Version>2.6</Version>
@@ -257,7 +257,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\build\_deps\sfml-src\include;C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\build\_deps\sfml-src\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\james\OneDrive\Desktop\Job Application Stuff\James-Tebbutt-Portfolio\projects\Production Level C++ Assignment\build\_deps\sfml-src\include;C:\Users\james\OneDrive\Desktop\Job Application Stuff\James-Tebbutt-Portfolio\projects\Production Level C++ Assignment\build\_deps\sfml-src\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
       <BufferSecurityCheck></BufferSecurityCheck>
@@ -282,10 +282,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;NOMINMAX;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"RelWithDebInfo\";SFML_SYSTEM_EXPORTS</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\build\_deps\sfml-src\include;C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\build\_deps\sfml-src\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\james\OneDrive\Desktop\Job Application Stuff\James-Tebbutt-Portfolio\projects\Production Level C++ Assignment\build\_deps\sfml-src\include;C:\Users\james\OneDrive\Desktop\Job Application Stuff\James-Tebbutt-Portfolio\projects\Production Level C++ Assignment\build\_deps\sfml-src\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\build\_deps\sfml-src\include;C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\build\_deps\sfml-src\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\james\OneDrive\Desktop\Job Application Stuff\James-Tebbutt-Portfolio\projects\Production Level C++ Assignment\build\_deps\sfml-src\include;C:\Users\james\OneDrive\Desktop\Job Application Stuff\James-Tebbutt-Portfolio\projects\Production Level C++ Assignment\build\_deps\sfml-src\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -300,9 +300,9 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
       <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
-      <ImportLibrary>C:/Users/james/OneDrive/Desktop/Production Level C++ Assignment/build/_deps/sfml-build/lib/RelWithDebInfo/sfml-system.lib</ImportLibrary>
+      <ImportLibrary>C:/Users/james/OneDrive/Desktop/Job Application Stuff/James-Tebbutt-Portfolio/projects/Production Level C++ Assignment/build/_deps/sfml-build/lib/RelWithDebInfo/sfml-system.lib</ImportLibrary>
       <LinkErrorReporting></LinkErrorReporting>
-      <ProgramDataBaseFile>C:/Users/james/OneDrive/Desktop/Production Level C++ Assignment/build/_deps/sfml-build/lib/RelWithDebInfo/sfml-system.pdb</ProgramDataBaseFile>
+      <ProgramDataBaseFile>C:/Users/james/OneDrive/Desktop/Job Application Stuff/James-Tebbutt-Portfolio/projects/Production Level C++ Assignment/build/_deps/sfml-build/lib/RelWithDebInfo/sfml-system.pdb</ProgramDataBaseFile>
       <RandomizedBaseAddress></RandomizedBaseAddress>
       <SubSystem></SubSystem>
       <Version>2.6</Version>
@@ -312,11 +312,11 @@
     </ProjectReference>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\build\_deps\sfml-src\src\SFML\System\CMakeLists.txt">
+    <CustomBuild Include="C:\Users\james\OneDrive\Desktop\Job Application Stuff\James-Tebbutt-Portfolio\projects\Production Level C++ Assignment\build\_deps\sfml-src\src\SFML\System\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/james/OneDrive/Desktop/Production Level C++ Assignment/build/_deps/sfml-src/src/SFML/System/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/james/OneDrive/Desktop/Job Application Stuff/James-Tebbutt-Portfolio/projects/Production Level C++ Assignment/build/_deps/sfml-src/src/SFML/System/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/james/OneDrive/Desktop/Production Level C++ Assignment" "-BC:/Users/james/OneDrive/Desktop/Production Level C++ Assignment/build" --check-stamp-file "C:/Users/james/OneDrive/Desktop/Production Level C++ Assignment/build/_deps/sfml-build/src/SFML/System/CMakeFiles/generate.stamp"
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/james/OneDrive/Desktop/Job Application Stuff/James-Tebbutt-Portfolio/projects/Production Level C++ Assignment" "-BC:/Users/james/OneDrive/Desktop/Job Application Stuff/James-Tebbutt-Portfolio/projects/Production Level C++ Assignment/build" --check-stamp-file "C:/Users/james/OneDrive/Desktop/Job Application Stuff/James-Tebbutt-Portfolio/projects/Production Level C++ Assignment/build/_deps/sfml-build/src/SFML/System/CMakeFiles/generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -324,12 +324,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\build\_deps\sfml-src\tools\windows\resource.rc.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\build\_deps\sfml-build\src\SFML\System\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\james\OneDrive\Desktop\Job Application Stuff\James-Tebbutt-Portfolio\projects\Production Level C++ Assignment\build\_deps\sfml-src\tools\windows\resource.rc.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\james\OneDrive\Desktop\Job Application Stuff\James-Tebbutt-Portfolio\projects\Production Level C++ Assignment\build\_deps\sfml-build\src\SFML\System\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/james/OneDrive/Desktop/Production Level C++ Assignment/build/_deps/sfml-src/src/SFML/System/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/james/OneDrive/Desktop/Job Application Stuff/James-Tebbutt-Portfolio/projects/Production Level C++ Assignment/build/_deps/sfml-src/src/SFML/System/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/james/OneDrive/Desktop/Production Level C++ Assignment" "-BC:/Users/james/OneDrive/Desktop/Production Level C++ Assignment/build" --check-stamp-file "C:/Users/james/OneDrive/Desktop/Production Level C++ Assignment/build/_deps/sfml-build/src/SFML/System/CMakeFiles/generate.stamp"
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/james/OneDrive/Desktop/Job Application Stuff/James-Tebbutt-Portfolio/projects/Production Level C++ Assignment" "-BC:/Users/james/OneDrive/Desktop/Job Application Stuff/James-Tebbutt-Portfolio/projects/Production Level C++ Assignment/build" --check-stamp-file "C:/Users/james/OneDrive/Desktop/Job Application Stuff/James-Tebbutt-Portfolio/projects/Production Level C++ Assignment/build/_deps/sfml-build/src/SFML/System/CMakeFiles/generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -337,12 +337,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\build\_deps\sfml-src\tools\windows\resource.rc.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\build\_deps\sfml-build\src\SFML\System\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\james\OneDrive\Desktop\Job Application Stuff\James-Tebbutt-Portfolio\projects\Production Level C++ Assignment\build\_deps\sfml-src\tools\windows\resource.rc.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\james\OneDrive\Desktop\Job Application Stuff\James-Tebbutt-Portfolio\projects\Production Level C++ Assignment\build\_deps\sfml-build\src\SFML\System\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/james/OneDrive/Desktop/Production Level C++ Assignment/build/_deps/sfml-src/src/SFML/System/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/james/OneDrive/Desktop/Job Application Stuff/James-Tebbutt-Portfolio/projects/Production Level C++ Assignment/build/_deps/sfml-src/src/SFML/System/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/james/OneDrive/Desktop/Production Level C++ Assignment" "-BC:/Users/james/OneDrive/Desktop/Production Level C++ Assignment/build" --check-stamp-file "C:/Users/james/OneDrive/Desktop/Production Level C++ Assignment/build/_deps/sfml-build/src/SFML/System/CMakeFiles/generate.stamp"
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/james/OneDrive/Desktop/Job Application Stuff/James-Tebbutt-Portfolio/projects/Production Level C++ Assignment" "-BC:/Users/james/OneDrive/Desktop/Job Application Stuff/James-Tebbutt-Portfolio/projects/Production Level C++ Assignment/build" --check-stamp-file "C:/Users/james/OneDrive/Desktop/Job Application Stuff/James-Tebbutt-Portfolio/projects/Production Level C++ Assignment/build/_deps/sfml-build/src/SFML/System/CMakeFiles/generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -350,12 +350,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\build\_deps\sfml-src\tools\windows\resource.rc.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\build\_deps\sfml-build\src\SFML\System\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\james\OneDrive\Desktop\Job Application Stuff\James-Tebbutt-Portfolio\projects\Production Level C++ Assignment\build\_deps\sfml-src\tools\windows\resource.rc.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\james\OneDrive\Desktop\Job Application Stuff\James-Tebbutt-Portfolio\projects\Production Level C++ Assignment\build\_deps\sfml-build\src\SFML\System\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/james/OneDrive/Desktop/Production Level C++ Assignment/build/_deps/sfml-src/src/SFML/System/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/james/OneDrive/Desktop/Job Application Stuff/James-Tebbutt-Portfolio/projects/Production Level C++ Assignment/build/_deps/sfml-src/src/SFML/System/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/james/OneDrive/Desktop/Production Level C++ Assignment" "-BC:/Users/james/OneDrive/Desktop/Production Level C++ Assignment/build" --check-stamp-file "C:/Users/james/OneDrive/Desktop/Production Level C++ Assignment/build/_deps/sfml-build/src/SFML/System/CMakeFiles/generate.stamp"
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/james/OneDrive/Desktop/Job Application Stuff/James-Tebbutt-Portfolio/projects/Production Level C++ Assignment" "-BC:/Users/james/OneDrive/Desktop/Job Application Stuff/James-Tebbutt-Portfolio/projects/Production Level C++ Assignment/build" --check-stamp-file "C:/Users/james/OneDrive/Desktop/Job Application Stuff/James-Tebbutt-Portfolio/projects/Production Level C++ Assignment/build/_deps/sfml-build/src/SFML/System/CMakeFiles/generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -363,13 +363,13 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\build\_deps\sfml-src\tools\windows\resource.rc.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\build\_deps\sfml-build\src\SFML\System\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\james\OneDrive\Desktop\Job Application Stuff\James-Tebbutt-Portfolio\projects\Production Level C++ Assignment\build\_deps\sfml-src\tools\windows\resource.rc.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\james\OneDrive\Desktop\Job Application Stuff\James-Tebbutt-Portfolio\projects\Production Level C++ Assignment\build\_deps\sfml-build\src\SFML\System\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\build\_deps\sfml-src\src\SFML\System\Clock.cpp">
+    <ClCompile Include="C:\Users\james\OneDrive\Desktop\Job Application Stuff\James-Tebbutt-Portfolio\projects\Production Level C++ Assignment\build\_deps\sfml-src\src\SFML\System\Clock.cpp">
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
       <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4289</TreatSpecificWarningsAsErrors>
@@ -387,8 +387,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4289</TreatSpecificWarningsAsErrors>
       <WarningLevel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Level4</WarningLevel>
     </ClCompile>
-    <ClInclude Include="C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\build\_deps\sfml-src\include\SFML\System\Clock.hpp" />
-    <ClCompile Include="C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\build\_deps\sfml-src\src\SFML\System\Err.cpp">
+    <ClInclude Include="C:\Users\james\OneDrive\Desktop\Job Application Stuff\James-Tebbutt-Portfolio\projects\Production Level C++ Assignment\build\_deps\sfml-src\include\SFML\System\Clock.hpp" />
+    <ClCompile Include="C:\Users\james\OneDrive\Desktop\Job Application Stuff\James-Tebbutt-Portfolio\projects\Production Level C++ Assignment\build\_deps\sfml-src\src\SFML\System\Err.cpp">
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
       <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4289</TreatSpecificWarningsAsErrors>
@@ -406,10 +406,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4289</TreatSpecificWarningsAsErrors>
       <WarningLevel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Level4</WarningLevel>
     </ClCompile>
-    <ClInclude Include="C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\build\_deps\sfml-src\include\SFML\System\Err.hpp" />
-    <ClInclude Include="C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\build\_deps\sfml-src\include\SFML\System\Export.hpp" />
-    <ClInclude Include="C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\build\_deps\sfml-src\include\SFML\System\InputStream.hpp" />
-    <ClCompile Include="C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\build\_deps\sfml-src\src\SFML\System\Lock.cpp">
+    <ClInclude Include="C:\Users\james\OneDrive\Desktop\Job Application Stuff\James-Tebbutt-Portfolio\projects\Production Level C++ Assignment\build\_deps\sfml-src\include\SFML\System\Err.hpp" />
+    <ClInclude Include="C:\Users\james\OneDrive\Desktop\Job Application Stuff\James-Tebbutt-Portfolio\projects\Production Level C++ Assignment\build\_deps\sfml-src\include\SFML\System\Export.hpp" />
+    <ClInclude Include="C:\Users\james\OneDrive\Desktop\Job Application Stuff\James-Tebbutt-Portfolio\projects\Production Level C++ Assignment\build\_deps\sfml-src\include\SFML\System\InputStream.hpp" />
+    <ClCompile Include="C:\Users\james\OneDrive\Desktop\Job Application Stuff\James-Tebbutt-Portfolio\projects\Production Level C++ Assignment\build\_deps\sfml-src\src\SFML\System\Lock.cpp">
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
       <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4289</TreatSpecificWarningsAsErrors>
@@ -427,8 +427,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4289</TreatSpecificWarningsAsErrors>
       <WarningLevel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Level4</WarningLevel>
     </ClCompile>
-    <ClInclude Include="C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\build\_deps\sfml-src\include\SFML\System\Lock.hpp" />
-    <ClCompile Include="C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\build\_deps\sfml-src\src\SFML\System\Mutex.cpp">
+    <ClInclude Include="C:\Users\james\OneDrive\Desktop\Job Application Stuff\James-Tebbutt-Portfolio\projects\Production Level C++ Assignment\build\_deps\sfml-src\include\SFML\System\Lock.hpp" />
+    <ClCompile Include="C:\Users\james\OneDrive\Desktop\Job Application Stuff\James-Tebbutt-Portfolio\projects\Production Level C++ Assignment\build\_deps\sfml-src\src\SFML\System\Mutex.cpp">
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
       <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4289</TreatSpecificWarningsAsErrors>
@@ -446,10 +446,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4289</TreatSpecificWarningsAsErrors>
       <WarningLevel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Level4</WarningLevel>
     </ClCompile>
-    <ClInclude Include="C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\build\_deps\sfml-src\include\SFML\System\Mutex.hpp" />
-    <ClInclude Include="C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\build\_deps\sfml-src\include\SFML\System\NativeActivity.hpp" />
-    <ClInclude Include="C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\build\_deps\sfml-src\include\SFML\System\NonCopyable.hpp" />
-    <ClCompile Include="C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\build\_deps\sfml-src\src\SFML\System\Sleep.cpp">
+    <ClInclude Include="C:\Users\james\OneDrive\Desktop\Job Application Stuff\James-Tebbutt-Portfolio\projects\Production Level C++ Assignment\build\_deps\sfml-src\include\SFML\System\Mutex.hpp" />
+    <ClInclude Include="C:\Users\james\OneDrive\Desktop\Job Application Stuff\James-Tebbutt-Portfolio\projects\Production Level C++ Assignment\build\_deps\sfml-src\include\SFML\System\NativeActivity.hpp" />
+    <ClInclude Include="C:\Users\james\OneDrive\Desktop\Job Application Stuff\James-Tebbutt-Portfolio\projects\Production Level C++ Assignment\build\_deps\sfml-src\include\SFML\System\NonCopyable.hpp" />
+    <ClCompile Include="C:\Users\james\OneDrive\Desktop\Job Application Stuff\James-Tebbutt-Portfolio\projects\Production Level C++ Assignment\build\_deps\sfml-src\src\SFML\System\Sleep.cpp">
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
       <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4289</TreatSpecificWarningsAsErrors>
@@ -467,8 +467,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4289</TreatSpecificWarningsAsErrors>
       <WarningLevel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Level4</WarningLevel>
     </ClCompile>
-    <ClInclude Include="C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\build\_deps\sfml-src\include\SFML\System\Sleep.hpp" />
-    <ClCompile Include="C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\build\_deps\sfml-src\src\SFML\System\String.cpp">
+    <ClInclude Include="C:\Users\james\OneDrive\Desktop\Job Application Stuff\James-Tebbutt-Portfolio\projects\Production Level C++ Assignment\build\_deps\sfml-src\include\SFML\System\Sleep.hpp" />
+    <ClCompile Include="C:\Users\james\OneDrive\Desktop\Job Application Stuff\James-Tebbutt-Portfolio\projects\Production Level C++ Assignment\build\_deps\sfml-src\src\SFML\System\String.cpp">
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
       <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4289</TreatSpecificWarningsAsErrors>
@@ -486,9 +486,9 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4289</TreatSpecificWarningsAsErrors>
       <WarningLevel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Level4</WarningLevel>
     </ClCompile>
-    <ClInclude Include="C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\build\_deps\sfml-src\include\SFML\System\String.hpp" />
-    <ClInclude Include="C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\build\_deps\sfml-src\include\SFML\System\String.inl" />
-    <ClCompile Include="C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\build\_deps\sfml-src\src\SFML\System\Thread.cpp">
+    <ClInclude Include="C:\Users\james\OneDrive\Desktop\Job Application Stuff\James-Tebbutt-Portfolio\projects\Production Level C++ Assignment\build\_deps\sfml-src\include\SFML\System\String.hpp" />
+    <ClInclude Include="C:\Users\james\OneDrive\Desktop\Job Application Stuff\James-Tebbutt-Portfolio\projects\Production Level C++ Assignment\build\_deps\sfml-src\include\SFML\System\String.inl" />
+    <ClCompile Include="C:\Users\james\OneDrive\Desktop\Job Application Stuff\James-Tebbutt-Portfolio\projects\Production Level C++ Assignment\build\_deps\sfml-src\src\SFML\System\Thread.cpp">
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
       <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4289</TreatSpecificWarningsAsErrors>
@@ -506,9 +506,9 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4289</TreatSpecificWarningsAsErrors>
       <WarningLevel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Level4</WarningLevel>
     </ClCompile>
-    <ClInclude Include="C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\build\_deps\sfml-src\include\SFML\System\Thread.hpp" />
-    <ClInclude Include="C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\build\_deps\sfml-src\include\SFML\System\Thread.inl" />
-    <ClCompile Include="C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\build\_deps\sfml-src\src\SFML\System\ThreadLocal.cpp">
+    <ClInclude Include="C:\Users\james\OneDrive\Desktop\Job Application Stuff\James-Tebbutt-Portfolio\projects\Production Level C++ Assignment\build\_deps\sfml-src\include\SFML\System\Thread.hpp" />
+    <ClInclude Include="C:\Users\james\OneDrive\Desktop\Job Application Stuff\James-Tebbutt-Portfolio\projects\Production Level C++ Assignment\build\_deps\sfml-src\include\SFML\System\Thread.inl" />
+    <ClCompile Include="C:\Users\james\OneDrive\Desktop\Job Application Stuff\James-Tebbutt-Portfolio\projects\Production Level C++ Assignment\build\_deps\sfml-src\src\SFML\System\ThreadLocal.cpp">
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
       <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4289</TreatSpecificWarningsAsErrors>
@@ -526,10 +526,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4289</TreatSpecificWarningsAsErrors>
       <WarningLevel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Level4</WarningLevel>
     </ClCompile>
-    <ClInclude Include="C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\build\_deps\sfml-src\include\SFML\System\ThreadLocal.hpp" />
-    <ClInclude Include="C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\build\_deps\sfml-src\include\SFML\System\ThreadLocalPtr.hpp" />
-    <ClInclude Include="C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\build\_deps\sfml-src\include\SFML\System\ThreadLocalPtr.inl" />
-    <ClCompile Include="C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\build\_deps\sfml-src\src\SFML\System\Time.cpp">
+    <ClInclude Include="C:\Users\james\OneDrive\Desktop\Job Application Stuff\James-Tebbutt-Portfolio\projects\Production Level C++ Assignment\build\_deps\sfml-src\include\SFML\System\ThreadLocal.hpp" />
+    <ClInclude Include="C:\Users\james\OneDrive\Desktop\Job Application Stuff\James-Tebbutt-Portfolio\projects\Production Level C++ Assignment\build\_deps\sfml-src\include\SFML\System\ThreadLocalPtr.hpp" />
+    <ClInclude Include="C:\Users\james\OneDrive\Desktop\Job Application Stuff\James-Tebbutt-Portfolio\projects\Production Level C++ Assignment\build\_deps\sfml-src\include\SFML\System\ThreadLocalPtr.inl" />
+    <ClCompile Include="C:\Users\james\OneDrive\Desktop\Job Application Stuff\James-Tebbutt-Portfolio\projects\Production Level C++ Assignment\build\_deps\sfml-src\src\SFML\System\Time.cpp">
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
       <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4289</TreatSpecificWarningsAsErrors>
@@ -547,14 +547,14 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4289</TreatSpecificWarningsAsErrors>
       <WarningLevel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Level4</WarningLevel>
     </ClCompile>
-    <ClInclude Include="C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\build\_deps\sfml-src\include\SFML\System\Time.hpp" />
-    <ClInclude Include="C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\build\_deps\sfml-src\include\SFML\System\Utf.hpp" />
-    <ClInclude Include="C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\build\_deps\sfml-src\include\SFML\System\Utf.inl" />
-    <ClInclude Include="C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\build\_deps\sfml-src\include\SFML\System\Vector2.hpp" />
-    <ClInclude Include="C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\build\_deps\sfml-src\include\SFML\System\Vector2.inl" />
-    <ClInclude Include="C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\build\_deps\sfml-src\include\SFML\System\Vector3.hpp" />
-    <ClInclude Include="C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\build\_deps\sfml-src\include\SFML\System\Vector3.inl" />
-    <ClCompile Include="C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\build\_deps\sfml-src\src\SFML\System\FileInputStream.cpp">
+    <ClInclude Include="C:\Users\james\OneDrive\Desktop\Job Application Stuff\James-Tebbutt-Portfolio\projects\Production Level C++ Assignment\build\_deps\sfml-src\include\SFML\System\Time.hpp" />
+    <ClInclude Include="C:\Users\james\OneDrive\Desktop\Job Application Stuff\James-Tebbutt-Portfolio\projects\Production Level C++ Assignment\build\_deps\sfml-src\include\SFML\System\Utf.hpp" />
+    <ClInclude Include="C:\Users\james\OneDrive\Desktop\Job Application Stuff\James-Tebbutt-Portfolio\projects\Production Level C++ Assignment\build\_deps\sfml-src\include\SFML\System\Utf.inl" />
+    <ClInclude Include="C:\Users\james\OneDrive\Desktop\Job Application Stuff\James-Tebbutt-Portfolio\projects\Production Level C++ Assignment\build\_deps\sfml-src\include\SFML\System\Vector2.hpp" />
+    <ClInclude Include="C:\Users\james\OneDrive\Desktop\Job Application Stuff\James-Tebbutt-Portfolio\projects\Production Level C++ Assignment\build\_deps\sfml-src\include\SFML\System\Vector2.inl" />
+    <ClInclude Include="C:\Users\james\OneDrive\Desktop\Job Application Stuff\James-Tebbutt-Portfolio\projects\Production Level C++ Assignment\build\_deps\sfml-src\include\SFML\System\Vector3.hpp" />
+    <ClInclude Include="C:\Users\james\OneDrive\Desktop\Job Application Stuff\James-Tebbutt-Portfolio\projects\Production Level C++ Assignment\build\_deps\sfml-src\include\SFML\System\Vector3.inl" />
+    <ClCompile Include="C:\Users\james\OneDrive\Desktop\Job Application Stuff\James-Tebbutt-Portfolio\projects\Production Level C++ Assignment\build\_deps\sfml-src\src\SFML\System\FileInputStream.cpp">
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
       <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4289</TreatSpecificWarningsAsErrors>
@@ -572,8 +572,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4289</TreatSpecificWarningsAsErrors>
       <WarningLevel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Level4</WarningLevel>
     </ClCompile>
-    <ClInclude Include="C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\build\_deps\sfml-src\include\SFML\System\FileInputStream.hpp" />
-    <ClCompile Include="C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\build\_deps\sfml-src\src\SFML\System\MemoryInputStream.cpp">
+    <ClInclude Include="C:\Users\james\OneDrive\Desktop\Job Application Stuff\James-Tebbutt-Portfolio\projects\Production Level C++ Assignment\build\_deps\sfml-src\include\SFML\System\FileInputStream.hpp" />
+    <ClCompile Include="C:\Users\james\OneDrive\Desktop\Job Application Stuff\James-Tebbutt-Portfolio\projects\Production Level C++ Assignment\build\_deps\sfml-src\src\SFML\System\MemoryInputStream.cpp">
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
       <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4289</TreatSpecificWarningsAsErrors>
@@ -591,8 +591,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4289</TreatSpecificWarningsAsErrors>
       <WarningLevel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Level4</WarningLevel>
     </ClCompile>
-    <ClInclude Include="C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\build\_deps\sfml-src\include\SFML\System\MemoryInputStream.hpp" />
-    <ClCompile Include="C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\build\_deps\sfml-src\src\SFML\System\Win32\ClockImpl.cpp">
+    <ClInclude Include="C:\Users\james\OneDrive\Desktop\Job Application Stuff\James-Tebbutt-Portfolio\projects\Production Level C++ Assignment\build\_deps\sfml-src\include\SFML\System\MemoryInputStream.hpp" />
+    <ClCompile Include="C:\Users\james\OneDrive\Desktop\Job Application Stuff\James-Tebbutt-Portfolio\projects\Production Level C++ Assignment\build\_deps\sfml-src\src\SFML\System\Win32\ClockImpl.cpp">
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
       <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4289</TreatSpecificWarningsAsErrors>
@@ -610,8 +610,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4289</TreatSpecificWarningsAsErrors>
       <WarningLevel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Level4</WarningLevel>
     </ClCompile>
-    <ClInclude Include="C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\build\_deps\sfml-src\src\SFML\System\Win32\ClockImpl.hpp" />
-    <ClCompile Include="C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\build\_deps\sfml-src\src\SFML\System\Win32\MutexImpl.cpp">
+    <ClInclude Include="C:\Users\james\OneDrive\Desktop\Job Application Stuff\James-Tebbutt-Portfolio\projects\Production Level C++ Assignment\build\_deps\sfml-src\src\SFML\System\Win32\ClockImpl.hpp" />
+    <ClCompile Include="C:\Users\james\OneDrive\Desktop\Job Application Stuff\James-Tebbutt-Portfolio\projects\Production Level C++ Assignment\build\_deps\sfml-src\src\SFML\System\Win32\MutexImpl.cpp">
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
       <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4289</TreatSpecificWarningsAsErrors>
@@ -629,8 +629,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4289</TreatSpecificWarningsAsErrors>
       <WarningLevel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Level4</WarningLevel>
     </ClCompile>
-    <ClInclude Include="C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\build\_deps\sfml-src\src\SFML\System\Win32\MutexImpl.hpp" />
-    <ClCompile Include="C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\build\_deps\sfml-src\src\SFML\System\Win32\SleepImpl.cpp">
+    <ClInclude Include="C:\Users\james\OneDrive\Desktop\Job Application Stuff\James-Tebbutt-Portfolio\projects\Production Level C++ Assignment\build\_deps\sfml-src\src\SFML\System\Win32\MutexImpl.hpp" />
+    <ClCompile Include="C:\Users\james\OneDrive\Desktop\Job Application Stuff\James-Tebbutt-Portfolio\projects\Production Level C++ Assignment\build\_deps\sfml-src\src\SFML\System\Win32\SleepImpl.cpp">
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
       <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4289</TreatSpecificWarningsAsErrors>
@@ -648,8 +648,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4289</TreatSpecificWarningsAsErrors>
       <WarningLevel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Level4</WarningLevel>
     </ClCompile>
-    <ClInclude Include="C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\build\_deps\sfml-src\src\SFML\System\Win32\SleepImpl.hpp" />
-    <ClCompile Include="C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\build\_deps\sfml-src\src\SFML\System\Win32\ThreadImpl.cpp">
+    <ClInclude Include="C:\Users\james\OneDrive\Desktop\Job Application Stuff\James-Tebbutt-Portfolio\projects\Production Level C++ Assignment\build\_deps\sfml-src\src\SFML\System\Win32\SleepImpl.hpp" />
+    <ClCompile Include="C:\Users\james\OneDrive\Desktop\Job Application Stuff\James-Tebbutt-Portfolio\projects\Production Level C++ Assignment\build\_deps\sfml-src\src\SFML\System\Win32\ThreadImpl.cpp">
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
       <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4289</TreatSpecificWarningsAsErrors>
@@ -667,8 +667,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4289</TreatSpecificWarningsAsErrors>
       <WarningLevel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Level4</WarningLevel>
     </ClCompile>
-    <ClInclude Include="C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\build\_deps\sfml-src\src\SFML\System\Win32\ThreadImpl.hpp" />
-    <ClCompile Include="C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\build\_deps\sfml-src\src\SFML\System\Win32\ThreadLocalImpl.cpp">
+    <ClInclude Include="C:\Users\james\OneDrive\Desktop\Job Application Stuff\James-Tebbutt-Portfolio\projects\Production Level C++ Assignment\build\_deps\sfml-src\src\SFML\System\Win32\ThreadImpl.hpp" />
+    <ClCompile Include="C:\Users\james\OneDrive\Desktop\Job Application Stuff\James-Tebbutt-Portfolio\projects\Production Level C++ Assignment\build\_deps\sfml-src\src\SFML\System\Win32\ThreadLocalImpl.cpp">
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
       <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4289</TreatSpecificWarningsAsErrors>
@@ -686,13 +686,13 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4289</TreatSpecificWarningsAsErrors>
       <WarningLevel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Level4</WarningLevel>
     </ClCompile>
-    <ClInclude Include="C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\build\_deps\sfml-src\src\SFML\System\Win32\ThreadLocalImpl.hpp" />
-    <ResourceCompile Include="C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\build\_deps\sfml-build\src\SFML\System\sfml-system.rc" />
+    <ClInclude Include="C:\Users\james\OneDrive\Desktop\Job Application Stuff\James-Tebbutt-Portfolio\projects\Production Level C++ Assignment\build\_deps\sfml-src\src\SFML\System\Win32\ThreadLocalImpl.hpp" />
+    <ResourceCompile Include="C:\Users\james\OneDrive\Desktop\Job Application Stuff\James-Tebbutt-Portfolio\projects\Production Level C++ Assignment\build\_deps\sfml-build\src\SFML\System\sfml-system.rc" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <ProjectReference Include="C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\build\ZERO_CHECK.vcxproj">
-      <Project>{BC3A2623-824C-39E2-AC59-F36847B5D2DB}</Project>
+    <ProjectReference Include="C:\Users\james\OneDrive\Desktop\Job Application Stuff\James-Tebbutt-Portfolio\projects\Production Level C++ Assignment\build\ZERO_CHECK.vcxproj">
+      <Project>{52C17659-2136-345C-9FB8-41C40225738C}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>

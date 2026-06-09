@@ -6,22 +6,22 @@ cmake_minimum_required(VERSION ${CMAKE_VERSION}) # this file comes with cmake
 # If CMAKE_DISABLE_SOURCE_CHANGES is set to true and the source directory is an
 # existing directory in our source tree, calling file(MAKE_DIRECTORY) on it
 # would cause a fatal error, even though it would be a no-op.
-if(NOT EXISTS "C:/Users/james/OneDrive/Desktop/Production Level C++ Assignment/build/_deps/sfml-src")
-  file(MAKE_DIRECTORY "C:/Users/james/OneDrive/Desktop/Production Level C++ Assignment/build/_deps/sfml-src")
+if(NOT EXISTS "C:/Users/james/OneDrive/Desktop/Job Application Stuff/James-Tebbutt-Portfolio/projects/Production Level C++ Assignment/build/_deps/sfml-src")
+  file(MAKE_DIRECTORY "C:/Users/james/OneDrive/Desktop/Job Application Stuff/James-Tebbutt-Portfolio/projects/Production Level C++ Assignment/build/_deps/sfml-src")
 endif()
 file(MAKE_DIRECTORY
-  "C:/Users/james/OneDrive/Desktop/Production Level C++ Assignment/build/_deps/sfml-build"
-  "C:/Users/james/OneDrive/Desktop/Production Level C++ Assignment/build/_deps/sfml-subbuild/sfml-populate-prefix"
-  "C:/Users/james/OneDrive/Desktop/Production Level C++ Assignment/build/_deps/sfml-subbuild/sfml-populate-prefix/tmp"
-  "C:/Users/james/OneDrive/Desktop/Production Level C++ Assignment/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp"
-  "C:/Users/james/OneDrive/Desktop/Production Level C++ Assignment/build/_deps/sfml-subbuild/sfml-populate-prefix/src"
-  "C:/Users/james/OneDrive/Desktop/Production Level C++ Assignment/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp"
+  "C:/Users/james/OneDrive/Desktop/Job Application Stuff/James-Tebbutt-Portfolio/projects/Production Level C++ Assignment/build/_deps/sfml-build"
+  "C:/Users/james/OneDrive/Desktop/Job Application Stuff/James-Tebbutt-Portfolio/projects/Production Level C++ Assignment/build/_deps/sfml-subbuild/sfml-populate-prefix"
+  "C:/Users/james/OneDrive/Desktop/Job Application Stuff/James-Tebbutt-Portfolio/projects/Production Level C++ Assignment/build/_deps/sfml-subbuild/sfml-populate-prefix/tmp"
+  "C:/Users/james/OneDrive/Desktop/Job Application Stuff/James-Tebbutt-Portfolio/projects/Production Level C++ Assignment/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp"
+  "C:/Users/james/OneDrive/Desktop/Job Application Stuff/James-Tebbutt-Portfolio/projects/Production Level C++ Assignment/build/_deps/sfml-subbuild/sfml-populate-prefix/src"
+  "C:/Users/james/OneDrive/Desktop/Job Application Stuff/James-Tebbutt-Portfolio/projects/Production Level C++ Assignment/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp"
 )
 
 set(configSubDirs Debug)
 foreach(subDir IN LISTS configSubDirs)
-    file(MAKE_DIRECTORY "C:/Users/james/OneDrive/Desktop/Production Level C++ Assignment/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/${subDir}")
+    file(MAKE_DIRECTORY "C:/Users/james/OneDrive/Desktop/Job Application Stuff/James-Tebbutt-Portfolio/projects/Production Level C++ Assignment/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/${subDir}")
 endforeach()
 if(cfgdir)
-  file(MAKE_DIRECTORY "C:/Users/james/OneDrive/Desktop/Production Level C++ Assignment/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp${cfgdir}") # cfgdir has leading slash
+  file(MAKE_DIRECTORY "C:/Users/james/OneDrive/Desktop/Job Application Stuff/James-Tebbutt-Portfolio/projects/Production Level C++ Assignment/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp${cfgdir}") # cfgdir has leading slash
 endif()

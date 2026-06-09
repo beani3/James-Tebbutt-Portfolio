@@ -1,78 +1,78 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\SFML_GTEST\src\Main.cpp">
+    <ClCompile Include="C:\Users\james\OneDrive\Desktop\Job Application Stuff\James-Tebbutt-Portfolio\projects\Production Level C++ Assignment\SFML_GTEST\src\Main.cpp">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\SFML_GTEST\src\DynamicObject.cpp">
+    <ClCompile Include="C:\Users\james\OneDrive\Desktop\Job Application Stuff\James-Tebbutt-Portfolio\projects\Production Level C++ Assignment\SFML_GTEST\src\DynamicObject.cpp">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\SFML_GTEST\src\StaticObject.cpp">
+    <ClCompile Include="C:\Users\james\OneDrive\Desktop\Job Application Stuff\James-Tebbutt-Portfolio\projects\Production Level C++ Assignment\SFML_GTEST\src\StaticObject.cpp">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\SFML_GTEST\src\AnimationManager.cpp">
+    <ClCompile Include="C:\Users\james\OneDrive\Desktop\Job Application Stuff\James-Tebbutt-Portfolio\projects\Production Level C++ Assignment\SFML_GTEST\src\AnimationManager.cpp">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\SFML_GTEST\src\EnemyNPC.cpp">
+    <ClCompile Include="C:\Users\james\OneDrive\Desktop\Job Application Stuff\James-Tebbutt-Portfolio\projects\Production Level C++ Assignment\SFML_GTEST\src\EnemyNPC.cpp">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\SFML_GTEST\src\GameEngine.cpp">
+    <ClCompile Include="C:\Users\james\OneDrive\Desktop\Job Application Stuff\James-Tebbutt-Portfolio\projects\Production Level C++ Assignment\SFML_GTEST\src\GameEngine.cpp">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\SFML_GTEST\src\PlayerCharacter.cpp">
+    <ClCompile Include="C:\Users\james\OneDrive\Desktop\Job Application Stuff\James-Tebbutt-Portfolio\projects\Production Level C++ Assignment\SFML_GTEST\src\PlayerCharacter.cpp">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\SFML_GTEST\src\Tilemap.cpp">
+    <ClCompile Include="C:\Users\james\OneDrive\Desktop\Job Application Stuff\James-Tebbutt-Portfolio\projects\Production Level C++ Assignment\SFML_GTEST\src\Tilemap.cpp">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\SFML_GTEST\src\SplashScreen.cpp">
+    <ClCompile Include="C:\Users\james\OneDrive\Desktop\Job Application Stuff\James-Tebbutt-Portfolio\projects\Production Level C++ Assignment\SFML_GTEST\src\SplashScreen.cpp">
       <Filter>src</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\SFML_GTEST\include\DynamicObject.h">
+    <ClInclude Include="C:\Users\james\OneDrive\Desktop\Job Application Stuff\James-Tebbutt-Portfolio\projects\Production Level C++ Assignment\SFML_GTEST\include\DynamicObject.h">
       <Filter>include</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\SFML_GTEST\include\GameObject.h">
+    <ClInclude Include="C:\Users\james\OneDrive\Desktop\Job Application Stuff\James-Tebbutt-Portfolio\projects\Production Level C++ Assignment\SFML_GTEST\include\GameObject.h">
       <Filter>include</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\SFML_GTEST\include\StaticObject.h">
+    <ClInclude Include="C:\Users\james\OneDrive\Desktop\Job Application Stuff\James-Tebbutt-Portfolio\projects\Production Level C++ Assignment\SFML_GTEST\include\StaticObject.h">
       <Filter>include</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\SFML_GTEST\include\AnimationManager.h">
+    <ClInclude Include="C:\Users\james\OneDrive\Desktop\Job Application Stuff\James-Tebbutt-Portfolio\projects\Production Level C++ Assignment\SFML_GTEST\include\AnimationManager.h">
       <Filter>include</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\SFML_GTEST\include\EnemyNPC.h">
+    <ClInclude Include="C:\Users\james\OneDrive\Desktop\Job Application Stuff\James-Tebbutt-Portfolio\projects\Production Level C++ Assignment\SFML_GTEST\include\EnemyNPC.h">
       <Filter>include</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\SFML_GTEST\include\GameEngine.h">
+    <ClInclude Include="C:\Users\james\OneDrive\Desktop\Job Application Stuff\James-Tebbutt-Portfolio\projects\Production Level C++ Assignment\SFML_GTEST\include\GameEngine.h">
       <Filter>include</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\SFML_GTEST\include\PlayerCharacter.h">
+    <ClInclude Include="C:\Users\james\OneDrive\Desktop\Job Application Stuff\James-Tebbutt-Portfolio\projects\Production Level C++ Assignment\SFML_GTEST\include\PlayerCharacter.h">
       <Filter>include</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\SFML_GTEST\include\Tilemap.h">
+    <ClInclude Include="C:\Users\james\OneDrive\Desktop\Job Application Stuff\James-Tebbutt-Portfolio\projects\Production Level C++ Assignment\SFML_GTEST\include\Tilemap.h">
       <Filter>include</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\SFML_GTEST\include\EnemyBuilder.h">
+    <ClInclude Include="C:\Users\james\OneDrive\Desktop\Job Application Stuff\James-Tebbutt-Portfolio\projects\Production Level C++ Assignment\SFML_GTEST\include\EnemyBuilder.h">
       <Filter>include</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\SFML_GTEST\include\NPCBuilder.h">
+    <ClInclude Include="C:\Users\james\OneDrive\Desktop\Job Application Stuff\James-Tebbutt-Portfolio\projects\Production Level C++ Assignment\SFML_GTEST\include\NPCBuilder.h">
       <Filter>include</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\SFML_GTEST\include\SplashScreen.h">
+    <ClInclude Include="C:\Users\james\OneDrive\Desktop\Job Application Stuff\James-Tebbutt-Portfolio\projects\Production Level C++ Assignment\SFML_GTEST\include\SplashScreen.h">
       <Filter>include</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\james\OneDrive\Desktop\Production Level C++ Assignment\SFML_GTEST\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\james\OneDrive\Desktop\Job Application Stuff\James-Tebbutt-Portfolio\projects\Production Level C++ Assignment\SFML_GTEST\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="include">
-      <UniqueIdentifier>{83905E6D-4A39-3A22-BBAD-3CC1F8B81B01}</UniqueIdentifier>
+      <UniqueIdentifier>{397641DF-8ED5-3083-8886-BD80BB01276C}</UniqueIdentifier>
     </Filter>
     <Filter Include="src">
-      <UniqueIdentifier>{67EFE7FC-3925-3F84-AD42-CA8E4E8ADF81}</UniqueIdentifier>
+      <UniqueIdentifier>{55EB3EBC-3624-3F4F-BA88-5CD5FF161283}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

@@ -17,11 +17,10 @@ GameEngine::GameEngine(sf::RenderWindow& window) :
         .buildSpeed(100)
         .buildPos(sf::Vector2f((window.getSize().x / 2) - 100, window.getSize().y / 2))
         .buildScale(sf::Vector2f(1, 1))
-        .buildSprite("../assets/TinySwords/Factions/Goblins/Troops/TNT/Blue/TNT_Blue-Idle.png", 0, 0, sf::Vector2f(192, 192))
+        .buildSprite("../../assets/TinySwords/Factions/Goblins/Troops/TNT/Blue/TNT_Blue-Idle.png", 0, 0, sf::Vector2f(192, 192))
         .buildCollider(m_enemyBuilder.getSprite().getPosition(), 64, 64)
         .build();
-
-    m_font.loadFromFile("../assets/Fonts/calibri.ttf");
+    m_font.loadFromFile("../../assets/Fonts/calibri.ttf");
     m_text.setColor(sf::Color::White);
 }
 

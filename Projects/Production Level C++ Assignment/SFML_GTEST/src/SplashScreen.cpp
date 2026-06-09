@@ -4,7 +4,7 @@
 SplashScreen::SplashScreen(std::vector<std::string>& contents) :
 	v_contents(contents)
 {
-	m_font.loadFromFile("../assets/Fonts/calibri.ttf");
+	m_font.loadFromFile("../../assets/Fonts/calibri.ttf");
 	m_text = sf::Text("Press Space to Fill Bar", m_font, 40);
 	m_text.setColor(sf::Color::White);
 	m_text.setOrigin(m_text.getGlobalBounds().width / 2, m_text.getGlobalBounds().height / 2);
@@ -19,8 +19,8 @@ SplashScreen::SplashScreen(std::vector<std::string>& contents) :
 }
 
 void SplashScreen::LoadingFile() {
-	m_fileToRead = std::ifstream("../Users/UserDetails.csv");
-	m_output = std::ofstream("../Users/Output.csv");
+	m_fileToRead = std::ifstream("../../Users/UserDetails.csv");
+	m_output = std::ofstream("../../Users/Output.csv");
 
 	if (m_fileToRead.is_open() && m_output.is_open()) {
 		m_output << "Line Number, Content\n";

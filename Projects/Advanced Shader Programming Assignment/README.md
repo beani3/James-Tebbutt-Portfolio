@@ -19,3 +19,7 @@ Upon downloading the project, run the ```runCMake.bat``` to access the build fol
 ---
 ### Additional Information
 - The project uses a renderer and written by the lecturer of this module. 
+---
+### Screenshots
+![Advanced-Shader-Programming-01](../screenshots/advanced-shaders-01.png)
+![Advanced-Shader-Programming-02](../screenshots/advanced-shaders-02.png)

@@ -14,5 +14,5 @@ Upon downloading the project, locate the "Build" folder and open the ```SFML_GTE
 - **Movement:** W, S, A, D
 - **Sprinting:** Shift Key
 ### Screenshots
-![pdc-01](/screenshots/pdc-01.png)
-![pdc-01](/screenshots/pdc-02.png)
+![pdc-01](pdc-01.png)
+![pdc-01](pdc-02.png)

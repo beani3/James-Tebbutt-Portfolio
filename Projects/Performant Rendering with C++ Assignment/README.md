@@ -19,4 +19,4 @@ Upon downloading the project, run the ```runCMake.bat``` to access the build fol
 - The project uses a renderer and demo written by the lecturer of this and the previous module. 
 - As apart of the assignment, we were expected to profile and evaluate performance of the program after each optimisation was implemented. Those reports are inside the "Reports" folder.
 ### Screenshots
-![Performant-Rendering-01](../screenshots/performant-rendering-01.png)
+![Performant-Rendering-01](performant-rendering-01.png)

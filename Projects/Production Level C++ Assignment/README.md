@@ -13,6 +13,7 @@ This module demonstrates the application of structured software development meth
 Upon downloading the project, locate the "Build" folder and open the ```SFML_GTEST.sln"```. To interact with the loading mini-game, repeateadly press space to fill the loading bar. Controls are listed below:
 - **Movement:** W, S, A, D
 - **Sprinting:** Shift Key
+---
 ### Screenshots
 ![pdc-01](pdc-01.png)
 ![pdc-01](pdc-02.png)

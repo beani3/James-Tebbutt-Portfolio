@@ -41,7 +41,7 @@
  * @note Shader source paths are hard-coded relative to the application working directory.
  */
 Renderer::Renderer() {
-	glClearColor(0.1f, 0.1f, 0.1f, 1.f); //!< Set clear colour 
+	glClearColor(0.f, 0.f, 0.f, 1.f); //!< Set clear colour 
 
 	/** Bind VAO */
 	glCreateVertexArrays(1, &m_vaoID);

@@ -208,7 +208,7 @@ void FinalProject::generateLevel() {
 	}
 
 	TextureDescription platformTexDesc = {
-		.src = "./assets/textures/missing_texture.png",
+		.src = "./assets/textures/platform.png",
 		.width = 512,
 		.height = 512,
 		.channels = 4
@@ -230,10 +230,23 @@ void FinalProject::generateLevel() {
 	}
 
 	{
-		glm::vec2 size{ 2.f, 3.f };
+		glm::vec2 size{ 1.5f, 5.f };
 		Platform platform = {
 			.colour = m_defaultColour,
-			.pos = { 0.f, -3.5f },
+			.pos = { -2.0f, -2.5f },
+			.halfExtent = size * 0.5f,
+			.texHandle = platformTexHandle
+			//!< Using default UVs so not include in platformer construction
+		};
+
+		m_platforms.push_back(platform);
+	}
+
+	{
+		glm::vec2 size{ 2.f, 0.5f };
+		Platform platform = {
+			.colour = m_defaultColour,
+			.pos = { 0.5f, -3.5f },
 			.halfExtent = size * 0.5f,
 			.texHandle = platformTexHandle
 			//!< Using default UVs so not include in platformer construction
@@ -246,35 +259,9 @@ void FinalProject::generateLevel() {
 		glm::vec2 size{ 1.f, 0.5f };
 		Platform platform = {
 			.colour = m_defaultColour,
-			.pos = { 2.2f, -1.8f },
+			.pos = { 3.f, -2.75f },
 			.halfExtent = size * 0.5f,
 			.texHandle = platformTexHandle
-			//!< Using default UVs so not include in platformer construction
-		};
-
-		m_platforms.push_back(platform);
-	}
-
-	{
-		glm::vec2 size{ 2.f, 0.5f };
-		Platform platform = {
-			.colour = m_defaultColour,
-			.pos = { 4.6f, -1.2f },
-			.halfExtent = size * 0.5f,
-			.texHandle = platformTexHandle
-			//!< Using default UVs so not include in platformer construction
-		};
-
-		m_platforms.push_back(platform);
-	}
-
-	{
-		glm::vec2 size{ 2.f, 6.f };
-		Platform platform = {
-			.colour = m_defaultColour,
-			.pos = { 8.25f, 1.2f },
-			.halfExtent = size * 0.5f,
-			.texHandle = platformTexHandle,
 			//!< Using default UVs so not include in platformer construction
 		};
 
@@ -285,7 +272,46 @@ void FinalProject::generateLevel() {
 		glm::vec2 size{ 2.f, 3.f };
 		Platform platform = {
 			.colour = m_defaultColour,
-			.pos = { 8.25f, -5.f },
+			.pos = { 5.5f, -3.25f },
+			.halfExtent = size * 0.5f,
+			.texHandle = platformTexHandle
+			//!< Using default UVs so not include in platformer construction
+		};
+
+		m_platforms.push_back(platform);
+	}
+
+	{
+		glm::vec2 size{ 1.f, 0.5f };
+		Platform platform = {
+			.colour = m_defaultColour,
+			.pos = { 7.5f, -1.5f },
+			.halfExtent = size * 0.5f,
+			.texHandle = platformTexHandle
+			//!< Using default UVs so not include in platformer construction
+		};
+
+		m_platforms.push_back(platform);
+	}
+
+	{
+		glm::vec2 size{ 1.f, 0.5f };
+		Platform platform = {
+			.colour = m_defaultColour,
+			.pos = { 9.f, -0.55f },
+			.halfExtent = size * 0.5f,
+			.texHandle = platformTexHandle
+			//!< Using default UVs so not include in platformer construction
+		};
+
+		m_platforms.push_back(platform);
+	}
+
+	{
+		glm::vec2 size{ 1.f, 0.5f };
+		Platform platform = {
+			.colour = m_defaultColour,
+			.pos = { 7.f, 0.25f },
 			.halfExtent = size * 0.5f,
 			.texHandle = platformTexHandle
 			//!< Using default UVs so not include in platformer construction
@@ -298,7 +324,7 @@ void FinalProject::generateLevel() {
 		glm::vec2 size{ 1.5f, 0.5f };
 		Platform platform = {
 			.colour = m_defaultColour,
-			.pos = { 10.5f, -3.f },
+			.pos = { 9.5f, 1.f },
 			.halfExtent = size * 0.5f,
 			.texHandle = platformTexHandle
 			//!< Using default UVs so not include in platformer construction
@@ -308,10 +334,10 @@ void FinalProject::generateLevel() {
 	}
 
 	{
-		glm::vec2 size{ 1.5f, 0.5f };
+		glm::vec2 size{ 1.5f, 7.f };
 		Platform platform = {
 			.colour = m_defaultColour,
-			.pos = { 12.5f, -2.5f },
+			.pos = { 12.f, -1.5f },
 			.halfExtent = size * 0.5f,
 			.texHandle = platformTexHandle
 			//!< Using default UVs so not include in platformer construction
@@ -321,10 +347,10 @@ void FinalProject::generateLevel() {
 	}
 
 	{
-		glm::vec2 size{ 2.f, 0.5f };
+		glm::vec2 size{ 1.5f, 1.5f };
 		Platform platform = {
 			.colour = m_defaultColour,
-			.pos = { 15.f, -2.f },
+			.pos = { 15.f, -3.5f },
 			.halfExtent = size * 0.5f,
 			.texHandle = platformTexHandle
 			//!< Using default UVs so not include in platformer construction
@@ -334,10 +360,23 @@ void FinalProject::generateLevel() {
 	}
 
 	{
-		glm::vec2 size{ 8.5f, 4.f };
+		glm::vec2 size{ 1.5f, 5.f };
 		Platform platform = {
 			.colour = m_defaultColour,
-			.pos = { 20.75f, -3.5f },
+			.pos = { 15.f, 1.5f },
+			.halfExtent = size * 0.5f,
+			.texHandle = platformTexHandle
+			//!< Using default UVs so not include in platformer construction
+		};
+
+		m_platforms.push_back(platform);
+	}
+
+	{
+		glm::vec2 size{ 9.f, 2.f };
+		Platform platform = {
+			.colour = m_defaultColour,
+			.pos = { 20.5f, -3.5f },
 			.halfExtent = size * 0.5f,
 			.texHandle = platformTexHandle
 			//!< Using default UVs so not include in platformer construction
@@ -397,7 +436,7 @@ void FinalProject::handleInput() {
 	auto& renderComp = m_scene.get<RenderComponent>(m_player);
 
 	glm::vec2 targetVel = { 0.f, 0.f };
-	float speed = 3.f;
+	float speed = 2.f;
 
 	bool keyPressed{ false };
 	if (InputSystem::get().isKeyPressedPoll(GLFW_KEY_A) && m_canMove || InputSystem::get().isKeyPressedPoll(GLFW_KEY_LEFT) && m_canMove) {
@@ -409,7 +448,7 @@ void FinalProject::handleInput() {
 		keyPressed = true;
 	}
 	if (InputSystem::get().isKeyPressed(GLFW_KEY_SPACE) && m_canJump) {
-		b2Body_ApplyLinearImpulseToCenter(physicsComp.id, b2Vec2(0.f, 1.f), true);
+		b2Body_ApplyLinearImpulseToCenter(physicsComp.id, b2Vec2(0.f, 1.05f), true);
 		m_jumpCount++;
 		
 		if (m_jumpCount == 1) {

@@ -13,7 +13,7 @@ The completed renderer was tested and evaluated against its original objectives 
 - Managing time to achieve a finished product in a reasonable timeframe.
 ---
 ### Running and Using The Application
-Upon dowloading the project, run the ```runCmake.bat``` and open the ```finalProject.sln```. Alternatively, you can download the prebuilt project and simply run the ```finalProject.exe```.
+Upon dowloading the project, run the ```runCmake.bat``` and open the ```finalProject.sln```. Alternatively, you can download and unzip a prebuilt version of my project and open ```finalProject.exe```.
 - **Movement:** A, Arrow Key Left, D, Arrow Key Right, SPACE.
 - **Aditional Key Binds**: R - Reset to start
 

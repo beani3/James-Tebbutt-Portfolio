@@ -1,0 +1,14 @@
+{ "columns":20,
+ "image":"Tilemap\/monochrome_tilemap.png",
+ "imageheight":339,
+ "imagewidth":339,
+ "margin":0,
+ "name":"renderer platformer tilemap",
+ "spacing":1,
+ "tilecount":400,
+ "tiledversion":"1.12.1",
+ "tileheight":16,
+ "tilewidth":16,
+ "type":"tileset",
+ "version":"1.10"
+}

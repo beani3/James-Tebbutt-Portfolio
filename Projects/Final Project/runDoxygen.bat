@@ -1,0 +1,1 @@
+call "./render2D/doc/bin/doxywizard.exe" "./render2D/doc/Doxyfile"

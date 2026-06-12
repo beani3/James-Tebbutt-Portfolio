@@ -94,6 +94,7 @@ private:
 
 	/** Default values for colour and handle */
 	glm::vec4 m_defaultColour{ glm::vec4(1.f) };
+	glm::vec4 m_platformColour{ glm::vec4(1.0f, 0.41f, 0.71f, 1.0f) };
 	uint64_t m_defaultTextureHandle{ 0 };
 	uint64_t m_splashscreenTexHandle{ 0 };
 	uint64_t m_runTexHandle{ 0 };

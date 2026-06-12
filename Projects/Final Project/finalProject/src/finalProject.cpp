@@ -219,7 +219,7 @@ void FinalProject::generateLevel() {
 	{
 		glm::vec2 size{ 2.f, 5.f };
 		Platform platform = {
-			.colour = m_defaultColour,
+			.colour = m_platformColour,
 			.pos = { -4.5f, -3.f },
 			.halfExtent = size * 0.5f,
 			.texHandle = platformTexHandle
@@ -232,8 +232,21 @@ void FinalProject::generateLevel() {
 	{
 		glm::vec2 size{ 1.5f, 5.f };
 		Platform platform = {
-			.colour = m_defaultColour,
+			.colour = m_platformColour,
 			.pos = { -2.0f, -2.5f },
+			.halfExtent = size * 0.5f,
+			.texHandle = platformTexHandle
+			//!< Using default UVs so not include in platformer construction
+		};
+
+		m_platforms.push_back(platform);
+	}
+
+	{
+		glm::vec2 size{ 4.5f, 4.5f };
+		Platform platform = {
+			.colour = m_platformColour,
+			.pos = { -0.75f, 3.5f },
 			.halfExtent = size * 0.5f,
 			.texHandle = platformTexHandle
 			//!< Using default UVs so not include in platformer construction
@@ -245,7 +258,7 @@ void FinalProject::generateLevel() {
 	{
 		glm::vec2 size{ 2.f, 0.5f };
 		Platform platform = {
-			.colour = m_defaultColour,
+			.colour = m_platformColour,
 			.pos = { 0.5f, -3.5f },
 			.halfExtent = size * 0.5f,
 			.texHandle = platformTexHandle
@@ -258,7 +271,7 @@ void FinalProject::generateLevel() {
 	{
 		glm::vec2 size{ 1.f, 0.5f };
 		Platform platform = {
-			.colour = m_defaultColour,
+			.colour = m_platformColour,
 			.pos = { 3.f, -2.75f },
 			.halfExtent = size * 0.5f,
 			.texHandle = platformTexHandle
@@ -271,7 +284,7 @@ void FinalProject::generateLevel() {
 	{
 		glm::vec2 size{ 2.f, 3.f };
 		Platform platform = {
-			.colour = m_defaultColour,
+			.colour = m_platformColour,
 			.pos = { 5.5f, -3.25f },
 			.halfExtent = size * 0.5f,
 			.texHandle = platformTexHandle
@@ -284,7 +297,7 @@ void FinalProject::generateLevel() {
 	{
 		glm::vec2 size{ 1.f, 0.5f };
 		Platform platform = {
-			.colour = m_defaultColour,
+			.colour = m_platformColour,
 			.pos = { 7.5f, -1.5f },
 			.halfExtent = size * 0.5f,
 			.texHandle = platformTexHandle
@@ -297,7 +310,7 @@ void FinalProject::generateLevel() {
 	{
 		glm::vec2 size{ 1.f, 0.5f };
 		Platform platform = {
-			.colour = m_defaultColour,
+			.colour = m_platformColour,
 			.pos = { 9.f, -0.55f },
 			.halfExtent = size * 0.5f,
 			.texHandle = platformTexHandle
@@ -310,7 +323,7 @@ void FinalProject::generateLevel() {
 	{
 		glm::vec2 size{ 1.f, 0.5f };
 		Platform platform = {
-			.colour = m_defaultColour,
+			.colour = m_platformColour,
 			.pos = { 7.f, 0.25f },
 			.halfExtent = size * 0.5f,
 			.texHandle = platformTexHandle
@@ -323,7 +336,7 @@ void FinalProject::generateLevel() {
 	{
 		glm::vec2 size{ 1.5f, 0.5f };
 		Platform platform = {
-			.colour = m_defaultColour,
+			.colour = m_platformColour,
 			.pos = { 9.5f, 1.f },
 			.halfExtent = size * 0.5f,
 			.texHandle = platformTexHandle
@@ -336,7 +349,7 @@ void FinalProject::generateLevel() {
 	{
 		glm::vec2 size{ 1.5f, 7.f };
 		Platform platform = {
-			.colour = m_defaultColour,
+			.colour = m_platformColour,
 			.pos = { 12.f, -1.5f },
 			.halfExtent = size * 0.5f,
 			.texHandle = platformTexHandle
@@ -349,7 +362,7 @@ void FinalProject::generateLevel() {
 	{
 		glm::vec2 size{ 1.5f, 1.5f };
 		Platform platform = {
-			.colour = m_defaultColour,
+			.colour = m_platformColour,
 			.pos = { 15.f, -3.5f },
 			.halfExtent = size * 0.5f,
 			.texHandle = platformTexHandle
@@ -362,7 +375,7 @@ void FinalProject::generateLevel() {
 	{
 		glm::vec2 size{ 1.5f, 5.f };
 		Platform platform = {
-			.colour = m_defaultColour,
+			.colour = m_platformColour,
 			.pos = { 15.f, 1.5f },
 			.halfExtent = size * 0.5f,
 			.texHandle = platformTexHandle
@@ -375,7 +388,7 @@ void FinalProject::generateLevel() {
 	{
 		glm::vec2 size{ 9.f, 2.f };
 		Platform platform = {
-			.colour = m_defaultColour,
+			.colour = m_platformColour,
 			.pos = { 20.5f, -3.5f },
 			.halfExtent = size * 0.5f,
 			.texHandle = platformTexHandle
@@ -448,7 +461,7 @@ void FinalProject::handleInput() {
 		keyPressed = true;
 	}
 	if (InputSystem::get().isKeyPressed(GLFW_KEY_SPACE) && m_canJump) {
-		b2Body_ApplyLinearImpulseToCenter(physicsComp.id, b2Vec2(0.f, 1.05f), true);
+		b2Body_ApplyLinearImpulseToCenter(physicsComp.id, b2Vec2(0.f, 2.05f), true);
 		m_jumpCount++;
 		
 		if (m_jumpCount == 1) {
